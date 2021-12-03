@@ -54,6 +54,7 @@ map.on('load', function() {
   //     "fill-outline-color": "black"
   // }
   // });
+  
 
   map.addLayer({
     'id': 'population',
@@ -62,8 +63,8 @@ map.on('load', function() {
     'layout':{"visibility": 'visible'},
     "paint": {
       "fill-color":{
-        property: 'population',
-        stops: [[15000, '#feebe2'], [25000, '#fbb4b9'], [60000, '#f768a1'], [1000000, '#ae017e']]
+        property: 'indigenous_population_perentage',
+        stops: [[0.0095, '#feebe2'], [0.01345, '#fbb4b9'], [0.023196, '#f768a1'], [0.199, '#ae017e']]
         },
       "fill-opacity": 0.75,
       "fill-outline-color": "black"
@@ -73,11 +74,12 @@ map.on('load', function() {
   map.on('click', 'population', (e) => {
     new mapboxgl.Popup({closeButton: false})
     .setLngLat(e.lngLat)
-    .setHTML(e.features[0].properties.state_code +': '+e.features[0].properties.population)
+    .setHTML(e.features[0].properties.state_code +': '+parseFloat(e.features[0].properties.indigenous_population_perentage).toFixed(4) + "% (total " + e.features[0].properties.indigenous_population + ")")
     .addTo(map);
     });
 
 });
+
 
 
 

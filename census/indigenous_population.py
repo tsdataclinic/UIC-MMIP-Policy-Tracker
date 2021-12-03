@@ -13,12 +13,13 @@ _STATE = [("AL","Alabama"),("AK","Alaska"),("AZ","Arizona"),("AR","Arkansas"),("
 ("TN","Tennessee"),("TX","Texas"),("UT","Utah"),("VT","Vermont"),("VA","Virginia"),("WA","Washington"),("WV","West Virginia"),
 ("WI","Wisconsin"),("WY","Wyoming")]
 
-_VARIABLES='B02001_004E'
+_INDIGENOUS_POPULATION_VARIABLE='B02010_001E'
+_TOTAL_POPULATION_VARIABLE='B02001_001E'
 
 def main():
     parser = argparse.ArgumentParser("Create indigenous population data")
 
-    parser.add_argument("--year", type=int, required=True)
+    parser.add_argument("--year", type=int, default=2019)
     parser.add_argument("--output", type=str, required=True)
 
     args = parser.parse_args()
@@ -40,12 +41,13 @@ def main():
     dfs = []
     for state_code, state_name in _STATE:
         print(f"loading state {state_name}")
-        data, bounds = result.from_state(state_name, level='county', variables=_VARIABLES, return_bounds=True)
+        data, bounds = result.from_state(state_name, level='county', variables=[_INDIGENOUS_POPULATION_VARIABLE, _TOTAL_POPULATION_VARIABLE], return_bounds=True)
         bounds['state_code'] = state_code
-        bounds['population'] = data[_VARIABLES].sum()
+        bounds['indigenous_population'] = data[_INDIGENOUS_POPULATION_VARIABLE].sum()
+        bounds['indigenous_population_perentage'] = data[_INDIGENOUS_POPULATION_VARIABLE].sum() / data[_TOTAL_POPULATION_VARIABLE].sum()
         dfs.append(bounds)
     gdf = pd.concat(dfs)
-    gdf = gdf[['state_code', 'population', 'geometry']]
+    gdf = gdf[['state_code', 'indigenous_population', 'indigenous_population_perentage', 'geometry']]
     gdf = gdf.to_crs('epsg:4326')
     print(gdf.shape)
     gdf.to_file(args.output, driver='GeoJSON')
