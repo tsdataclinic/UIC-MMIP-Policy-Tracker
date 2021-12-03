@@ -15,8 +15,8 @@ $.getJSON("data/us_states.geojson", function(jsonData) {
 var map = new mapboxgl.Map({
   container: 'map', // container id
   style: 'mapbox://styles/mapbox/streets-v11', // style URL
-  center: [-104.6597064,37.275387], // starting position [lng, lat]
-  zoom: 3,
+  center: [-96.4913263,35.6634238], // starting position [lng, lat]
+  zoom: 4,
   // maxBounds: bounds,
   //scrollZoom: false
 });
@@ -35,7 +35,7 @@ map.on('load', function() {
   
   resetMap = document.getElementById('reset_button')
   resetMap.addEventListener('click', function(){
-    map.flyTo({center: [-104.6597064,37.275387], zoom:3});
+    map.flyTo({center: [-96.4913263,35.6634238], zoom:3});
   })
 
   map.addLayer({
@@ -49,7 +49,6 @@ map.on('load', function() {
       "fill-outline-color": "black"
   }
   });
-
 
   map.on('click', 'states-layer', (e) => {
     new mapboxgl.Popup({closeButton: false})
