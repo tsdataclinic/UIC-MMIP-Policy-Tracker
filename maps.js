@@ -35,7 +35,7 @@ map.on('load', function() {
   
   resetMap = document.getElementById('reset_button')
   resetMap.addEventListener('click', function(){
-    map.flyTo({center: [-96.4913263,35.6634238], zoom:3});
+    map.flyTo({center: [-96.4913263,35.6634238], zoom:4});
   })
 
   map.addLayer({
