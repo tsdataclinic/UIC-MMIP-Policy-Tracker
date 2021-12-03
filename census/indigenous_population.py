@@ -37,17 +37,17 @@ def main():
         if year < 2000:
             raise Exception("can't load data")
 
-    gdf = None
+    dfs = []
     for state_code, state_name in _STATE:
         print(f"loading state {state_name}")
         data, bounds = result.from_state(state_name, level='county', variables=_VARIABLES, return_bounds=True)
         bounds['state_code'] = state_code
         bounds['population'] = data[_VARIABLES].sum()
-        if gdf is None:
-            gdf = bounds
-        else:
-            gdf.append(bounds)
-
+        dfs.append(bounds)
+    gdf = pd.concat(dfs)
+    gdf = gdf[['state_code', 'population', 'geometry']]
+    gdf = gdf.to_crs('epsg:4326')
+    print(gdf.shape)
     gdf.to_file(args.output, driver='GeoJSON')
 
 if __name__ == "__main__":
