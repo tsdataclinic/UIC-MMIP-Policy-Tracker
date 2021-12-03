@@ -32,28 +32,48 @@ map.on('load', function() {
   'type': 'geojson',
   'data': 'https://docs.mapbox.com/mapbox-gl-js/assets/ne_110m_admin_1_states_provinces_shp.geojson'
   });
+
+  map.addSource('population', {
+    'type': 'geojson',
+    'data': 'census/population.geojson'
+    });
   
   resetMap = document.getElementById('reset_button')
   resetMap.addEventListener('click', function(){
     map.flyTo({center: [-96.4913263,35.6634238], zoom:4});
   })
 
+  // map.addLayer({
+  //   'id': 'states-layer',
+  //   'type': 'fill',
+  //   'source': 'states',
+  //   'layout':{"visibility": 'visible'},
+  //   "paint": {
+  //     "fill-color":'#193a45',
+  //     "fill-opacity": 0.1,
+  //     "fill-outline-color": "black"
+  // }
+  // });
+
   map.addLayer({
-    'id': 'states-layer',
+    'id': 'population',
     'type': 'fill',
-    'source': 'states',
+    'source': 'population',
     'layout':{"visibility": 'visible'},
     "paint": {
-      "fill-color":'#193a45',
-      "fill-opacity": 0.1,
+      "fill-color":{
+        property: 'population',
+        stops: [[15000, '#feebe2'], [25000, '#fbb4b9'], [60000, '#f768a1'], [1000000, '#ae017e']]
+        },
+      "fill-opacity": 0.75,
       "fill-outline-color": "black"
   }
   });
 
-  map.on('click', 'states-layer', (e) => {
+  map.on('click', 'population', (e) => {
     new mapboxgl.Popup({closeButton: false})
     .setLngLat(e.lngLat)
-    .setHTML(e.features[0].properties.name)
+    .setHTML(e.features[0].properties.state_code +': '+e.features[0].properties.population)
     .addTo(map);
     });
 
