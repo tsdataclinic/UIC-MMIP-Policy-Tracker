@@ -74,6 +74,49 @@ map.addControl(
   "top-left"
 );
 
+
+  // Add a source for the state polygons.
+//   map.addSource('states', {
+//   'type': 'geojson',
+//   'data': 'https://docs.mapbox.com/mapbox-gl-js/assets/ne_110m_admin_1_states_provinces_shp.geojson'
+//   });
+
+  map.addSource('population', {
+    'type': 'geojson',
+    'data': 'census/population.geojson'
+    });
+  
+  resetMap = document.getElementById('reset_button')
+  resetMap.addEventListener('click', function(){
+    map.flyTo({center: [-96.4913263,35.6634238], zoom:4});
+  })
+
+  // map.addLayer({
+  //   'id': 'states-layer',
+  //   'type': 'fill',
+  //   'source': 'states',
+  //   'layout':{"visibility": 'visible'},
+  //   "paint": {
+  //     "fill-color":'#193a45',
+  //     "fill-opacity": 0.1,
+  //     "fill-outline-color": "black"
+  // }
+  // });
+  
+
+  map.addLayer({
+    'id': 'population',
+    'type': 'fill',
+    'source': 'population',
+    'layout':{"visibility": 'visible'},
+    "paint": {
+      "fill-color":{
+        property: 'indigenous_population_perentage',
+        stops: [[0.0095, '#feebe2'], [0.01345, '#fbb4b9'], [0.023196, '#f768a1'], [0.199, '#ae017e']]
+        },
+      "fill-opacity": 0.75,
+      "fill-outline-color": "black"
+
 const layers = {
   status: {
     id: "status",
@@ -151,6 +194,7 @@ const trimName = (name) => {
     const splitted = _.split(name, "Bill Title:");
     const title = _.trim(splitted[1], '" \\');
     return `${title} (${shortName})`;
+
   }
   if (_.includes(name, "Resolution Title:")) {
     const splitted = _.split(name, "Resolution Title:");
@@ -328,6 +372,13 @@ map.on("load", async function () {
     );
     layer.stats = stats;
   });
+
+
+  map.on('click', 'population', (e) => {
+    new mapboxgl.Popup({closeButton: false})
+    .setLngLat(e.lngLat)
+    .setHTML(e.features[0].properties.state_code +': '+parseFloat(e.features[0].properties.indigenous_population_perentage).toFixed(4) + "% (total " + e.features[0].properties.indigenous_population + ")")
+    .addTo(map);
 
   $("#layer-legend").html(getLegendHtml(layers.status));
 
