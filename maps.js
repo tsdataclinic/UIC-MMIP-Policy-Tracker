@@ -43,6 +43,8 @@ const mechanismsForEvaluationMap = new Map();
 mechanismsForEvaluationMap.set(2, "green"); // Yes
 mechanismsForEvaluationMap.set(1, "red"); // No
 mechanismsForEvaluationMap.set(3, "orange"); // TBD or TCRP-specific
+const indigenoudPopulationMap = new Map();
+indigenoudPopulationMap.set()
 
 var map = new mapboxgl.Map({
   container: "map", // container id
@@ -81,41 +83,7 @@ map.addControl(
 //   'data': 'https://docs.mapbox.com/mapbox-gl-js/assets/ne_110m_admin_1_states_provinces_shp.geojson'
 //   });
 
-  map.addSource('population', {
-    'type': 'geojson',
-    'data': 'census/population.geojson'
-    });
-  
-  resetMap = document.getElementById('reset_button')
-  resetMap.addEventListener('click', function(){
-    map.flyTo({center: [-96.4913263,35.6634238], zoom:4});
-  })
 
-  // map.addLayer({
-  //   'id': 'states-layer',
-  //   'type': 'fill',
-  //   'source': 'states',
-  //   'layout':{"visibility": 'visible'},
-  //   "paint": {
-  //     "fill-color":'#193a45',
-  //     "fill-opacity": 0.1,
-  //     "fill-outline-color": "black"
-  // }
-  // });
-  
-
-  map.addLayer({
-    'id': 'population',
-    'type': 'fill',
-    'source': 'population',
-    'layout':{"visibility": 'visible'},
-    "paint": {
-      "fill-color":{
-        property: 'indigenous_population_perentage',
-        stops: [[0.0095, '#feebe2'], [0.01345, '#fbb4b9'], [0.023196, '#f768a1'], [0.199, '#ae017e']]
-        },
-      "fill-opacity": 0.75,
-      "fill-outline-color": "black"
 
 const layers = {
   status: {
@@ -157,6 +125,24 @@ const layers = {
     policyTrackerTextColumnName: "Mechanisms for Evaluation",
     policyTrackerNumeralTextMap: ["", "No", "Yes", "TBD or TCRP-specific"],
   },
+  indigenousPopulation : {
+    id: "indigenousPopulation",
+    layerName: "indigenousPopulation-layer",
+    propertyName: "population",
+    buttonId: `indigenousPopulation-btn`,
+    colorMap: mechanismsForEvaluationMap,
+    pop_colname: "population",
+    pct_colname: "population_pct",
+  },
+  indigenousPopulationPct : {
+    id: "indigenousPopulationPct",
+    layerName: "indigenousPopulationPct-layer",
+    propertyName: "population_pct",
+    buttonId: `indigenousPopulationPct-btn`,
+    colorMap: mechanismsForEvaluationMap,
+    pop_colname: "population",
+    pct_colname: "population_pct",
+  }
 };
 
 const getLegendHtml = (layer) => {
@@ -167,21 +153,83 @@ const getLegendHtml = (layer) => {
     // .reverse()
     .value();
 
-  return `<div class="card"><div class="card-body"><div class="card-title">${
-    layer.policyTrackerTextColumnName ?? layer.policyTrackerNumeralColumnName
-  }</div><div style="display:flex"><div style="margin-right:6px;text-align:right;">${_.map(
-    keys,
-    (key) => {
-      const count = layer.stats[key];
-      return `<div><span style="margin-right:4px;">${count}</span>${
-        count > 1 ? "states" : "state"
-      }</div>`;
-    }
-  ).join("\n")}</div><div>${_.map(keys, (key) => {
-    const color = layer.colorMap.get(key);
-    const name = layer.policyTrackerNumeralTextMap[key];
-    return `<div><span class="legend-key" style="background-color:${color};"></span><span style="color:${color}">${name}</span></div>`;
-  }).join("\n")}</div></div></div></div>`;
+  // layers.forEach((layer, i) => {
+  //   const color = colors[i];
+  //   const item = document.createElement('div');
+  //   const key = document.createElement('span');
+  //   key.className = 'legend-key';
+  //   key.style.backgroundColor = color;
+  
+  //   const value = document.createElement('span');
+  //   value.innerHTML = `${layer}`;
+  //   item.appendChild(key);
+  //   item.appendChild(value);
+  //   legend.appendChild(item);
+  // });
+
+  if(layer.id == "indigenousPopulationPct") {
+      const ranges = [
+        '<1%',
+        '1 - 1.5%',
+        '1.5% - 2.5%',
+        '>2.5%',
+      ]
+
+      const colors = [
+        '#feebe2',
+        '#fbb4b9',
+        '#f768a1',
+        '#ae017e',
+      ]
+
+      const keys = [0,1,2,3]
+      return `<div class="card"><div class="card-body"><div class="card-title">Population %
+      </div>${_.map(
+        keys,
+        (key) => {
+        const color = colors[key];
+        const name = ranges[key];
+        return `<div><span class="legend-key" style="background-color:${color};"></span><span style="color:${color}">${name}</span></div>`;
+      }).join("\n")}</div></div>`;
+  } else if(layer.id == "indigenousPopulation") {
+    const ranges = [
+      '<25,000',
+      '25,000 - 50,000',
+      '50,000 - 100,000',
+      '>100,000'
+    ]
+    const keys = [0,1,2,3]
+    const colors = [
+      '#feebe2',
+      '#fbb4b9',
+      '#f768a1',
+      '#ae017e'
+    ]
+    return `<div class="card"><div class="card-body"><div class="card-title">Population
+    </div>${_.map(
+      keys,
+      (key) => {
+      const color = colors[key];
+      const name = ranges[key];
+      return `<div><span class="legend-key" style="background-color:${color};"></span><span style="color:${color}">${name}</span></div>`;
+    }).join("\n")}</div></div>`;
+  } else {
+    return `<div class="card"><div class="card-body"><div class="card-title">${
+      layer.policyTrackerTextColumnName ?? layer.policyTrackerNumeralColumnName
+    }</div><div style="display:flex"><div style="margin-right:6px;text-align:right;">${_.map(
+      keys,
+      (key) => {
+        const count = layer.stats[key];
+        return `<div><span style="margin-right:4px;">${count}</span>${
+          count > 1 ? "states" : "state"
+        }</div>`;
+      }
+    ).join("\n")}</div><div>${_.map(keys, (key) => {
+      const color = layer.colorMap.get(key);
+      const name = layer.policyTrackerNumeralTextMap[key];
+      return `<div><span class="legend-key" style="background-color:${color};"></span><span style="color:${color}">${name}</span></div>`;
+    }).join("\n")}</div></div></div></div>`;
+  }
 };
 
 // $(function () {
@@ -309,6 +357,13 @@ const createMechanismForEvaluationPopoverHtml = (stateName, stateData) => {
     }</div></li>`;
   }).join("\n")}</ul>`;
 };
+const createPopulationPopoverHtml = (stateName, population, population_pct) => {
+  const layer = layers.indigenousPopulation;
+  return `<ul> ${stateName} \n
+    <li>Population: ${population}</li> \n
+    <li>Population %: ${population_pct.toFixed(2)} %</li></ul>`;
+};
+
 
 map.on("load", async function () {
   // resetMap = document.getElementById("reset_button");
@@ -316,17 +371,21 @@ map.on("load", async function () {
   //   map.flyTo({ center: [-96.4913263, 35.6634238], zoom: 4 });
   // });
 
-  const [policyTrackerData, states_geojson] = await Promise.all([
+  const [policyTrackerData, states_geojson, population_data] = await Promise.all([
     getJSON("policyTrackerDec2021.json"),
     getJSON(
       "https://docs.mapbox.com/mapbox-gl-js/assets/ne_110m_admin_1_states_provinces_shp.geojson"
     ),
+    getJSON("census/population.geojson")
   ]);
   const policyTrackerDataMapByState = _.groupBy(policyTrackerData, "State");
 
   const mergedData = _.map(states_geojson.features, (state, index) => {
     const shortName = state.properties.postal;
     const policies = policyTrackerDataMapByState[shortName];
+    
+    const pop_vals = population_data.features.filter(o => o.properties.state_code == shortName)
+    // debugger
     return {
       ...state,
       id: index,
@@ -362,6 +421,8 @@ map.on("load", async function () {
               )
             ),
         policyCount: policies.length,
+        population: pop_vals[0].properties.indigenous_population,
+        population_pct: pop_vals[0].properties.indigenous_population_perentage *100,
       },
     };
   });
@@ -374,11 +435,12 @@ map.on("load", async function () {
   });
 
 
-  map.on('click', 'population', (e) => {
-    new mapboxgl.Popup({closeButton: false})
-    .setLngLat(e.lngLat)
-    .setHTML(e.features[0].properties.state_code +': '+parseFloat(e.features[0].properties.indigenous_population_perentage).toFixed(4) + "% (total " + e.features[0].properties.indigenous_population + ")")
-    .addTo(map);
+  // map.on('click', 'population', (e) => {
+  //   new mapboxgl.Popup({closeButton: false})
+  //   .setLngLat(e.lngLat)
+  //   .setHTML(e.features[0].properties.state_code +': '+parseFloat(e.features[0].properties.indigenous_population_perentage).toFixed(4) + "% (total " + e.features[0].properties.indigenous_population + ")")
+  //   .addTo(map);
+  // });
 
   $("#layer-legend").html(getLegendHtml(layers.status));
 
@@ -392,30 +454,64 @@ map.on("load", async function () {
 
   const defaultLayer = layers.status.id;
 
+
   _.forEach(layers, (layer) => {
     // console.log("layer.layerName", layer.layerName);
-    map.addLayer({
-      id: `${layer.layerName}`,
-      type: "fill",
-      source: "states",
-      layout: { visibility: layer.id === defaultLayer ? "visible" : "none" },
-      paint: {
-        // "fill-color":'#193a45',
-        "fill-color": [
-          "case",
-          ..._.chain(layer.colorMap.entries())
-            .toArray()
-            .map(([key, color]) => {
-              return [["==", ["get", layer.propertyName], key], color];
-            })
-            .flatten()
-            .value(),
-          "transparent",
-        ],
-        "fill-opacity": 0.5,
-        "fill-outline-color": "black",
-      },
-    });
+
+    if(layer.id === "indigenousPopulationPct") {
+      map.addLayer({
+        'id': 'indigenousPopulationPct-layer',
+        'type': 'fill',
+        'source': 'states',
+        'layout': { visibility: layer.id === defaultLayer ? "visible" : "none" },
+        "paint": {
+          "fill-color":{
+            property: 'population_pct',
+            stops: [[1, '#feebe2'], [1.5, '#fbb4b9'], [2.5, '#f768a1'], [20.0, '#ae017e']]
+            },
+          "fill-opacity": 0.75,
+          "fill-outline-color": "black"
+        }
+      }) 
+    } else if(layer.id === "indigenousPopulation"){
+      map.addLayer({
+        'id': 'indigenousPopulation-layer',
+        'type': 'fill',
+        'source': 'states',
+        'layout': { visibility: layer.id === defaultLayer ? "visible" : "none" },
+        "paint": {
+          "fill-color":{
+            property: 'population',
+            stops: [[25000, '#feebe2'], [50000, '#fbb4b9'], [100000, '#f768a1'], [1000000, '#ae017e']]
+            },
+          "fill-opacity": 0.75,
+          "fill-outline-color": "black"
+        }
+      }) 
+    } else {
+      map.addLayer({
+        id: `${layer.layerName}`,
+        type: "fill",
+        source: "states",
+        layout: { visibility: layer.id === defaultLayer ? "visible" : "none" },
+        paint: {
+          // "fill-color":'#193a45',
+          "fill-color": [
+            "case",
+            ..._.chain(layer.colorMap.entries())
+              .toArray()
+              .map(([key, color]) => {
+                return [["==", ["get", layer.propertyName], key], color];
+              })
+              .flatten()
+              .value(),
+            "transparent",
+          ],
+          "fill-opacity": 0.5,
+          "fill-outline-color": "black",
+        },
+      });
+    }
 
     $(`#${layer.buttonId}`).click(() => {
       $("#layer-legend").html(getLegendHtml(layer));
@@ -485,6 +581,41 @@ map.on("load", async function () {
         .setLngLat(e.lngLat)
         .setHTML(
           createGenderInclusiveLanguagePopoverHtml(layer, stateName, stateData)
+        )
+        .addTo(map);
+    });
+  })();
+  (() => {
+    const layer = layers.indigenousPopulation;
+    map.on("click", layer.layerName, (e) => {
+      const feature = e.features[0];
+      const state = feature.properties.postal;
+      const population = feature.properties.population;
+      const population_pct = feature.properties.population_pct;
+      const stateName = feature.properties.name;
+
+      new mapboxgl.Popup({ closeButton: false })
+        .setLngLat(e.lngLat)
+        .setHTML(
+          createPopulationPopoverHtml(stateName, population, population_pct)
+        )
+        .addTo(map);
+    });
+  })();
+  (() => {
+    const layer = layers.indigenousPopulationPct;
+    map.on("click", layer.layerName, (e) => {
+      const feature = e.features[0];
+      const state = feature.properties.postal;
+      const population = feature.properties.population;
+      const population_pct = feature.properties.population_pct;
+      const stateName = feature.properties.name;
+      console.log(feature)
+
+      new mapboxgl.Popup({ closeButton: false })
+        .setLngLat(e.lngLat)
+        .setHTML(
+          createPopulationPopoverHtml(stateName, population, population_pct)
         )
         .addTo(map);
     });
