@@ -28,14 +28,14 @@ jobs:
         ENV_SECRET: ${{ secrets.ENV_SECRET }} 
         REPO_SECRET: ${{ secrets.REPO_SECRET }} 
     - name: execute py script
-        run: |
-          python fetch_airtable_data.py
-          git config user.name kaushik12
-          git config user.email kaushik.mohan@twosigma.com
-          git add .
-          git commit -m "Latest airtable data"
-          git push
-        env:
-          AIRTABLE_ACCESS_TOKEN: ${{ secrets.AIRTABLE_ACCESS_TOKEN }} 
-          AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }} 
+      run: |
+        python fetch_airtable_data.py
+        git config user.name kaushik12
+        git config user.email kaushik.mohan@twosigma.com
+        git add .
+        git commit -m "Latest airtable data"
+        git push
+      env:
+        AIRTABLE_ACCESS_TOKEN: ${{ secrets.AIRTABLE_ACCESS_TOKEN }} 
+        AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }} 
 
