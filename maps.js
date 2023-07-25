@@ -387,7 +387,7 @@ map.on("load", async function () {
   ]);
   
   // const policyTrackerData = policyTrackerResponse.records.map(e => e.fields)
-  
+  console.log(policyTrackerData)
   const policyTrackerDataMapByState = _.groupBy(policyTrackerData, "State");
   
   const mergedData = _.map(states_geojson.features, (state, index) => {
