@@ -363,17 +363,13 @@ const createPopulationPopoverHtml = (stateName, population, population_pct) => {
     <li>Population %: ${population_pct.toFixed(2)} %</li></ul>`;
 };
 
-function setHeader(xhr) {
-  xhr.setRequestHeader('Authorization', 'Bearer patW3FMSYqECLCQom.4649b47503049256a59f86ad0d9acd6bf964595af0708a91da6908f25f1ae5b6');
-}
-
 map.on("load", async function () {
   // resetMap = document.getElementById("reset_button");
   // resetMap.addEventListener("click", function () {
   //   map.flyTo({ center: [-96.4913263, 35.6634238], zoom: 4 });
   // });
 
-  const [policyTrackerResponse, states_geojson, population_data] = await Promise.all([
+  const [policyTrackerData, states_geojson, population_data] = await Promise.all([
     getJSON("policyTacker_latest.json"),
     // getJSON("policyTrackerDec2021.json"),
     // $.ajax({
@@ -390,7 +386,7 @@ map.on("load", async function () {
     getJSON("census/population.geojson")
   ]);
   
-  const policyTrackerData = policyTrackerResponse.records.map(e => e.fields)
+  // const policyTrackerData = policyTrackerResponse.records.map(e => e.fields)
   
   const policyTrackerDataMapByState = _.groupBy(policyTrackerData, "State");
   
