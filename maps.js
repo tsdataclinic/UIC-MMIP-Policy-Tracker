@@ -374,15 +374,16 @@ map.on("load", async function () {
   // });
 
   const [policyTrackerResponse, states_geojson, population_data] = await Promise.all([
+    getJSON("policyTacker_latest.json"),
     // getJSON("policyTrackerDec2021.json"),
-    $.ajax({
-      url: 'https://api.airtable.com/v0/app0nHzjgm8HEKOCQ/Main',
-      type: 'GET',
-      dataType: 'json',
-      // success: function() { alert('data fetch from airtable succeeded'); },
-      error: function() { alert('data fetch from airtable failed'); },
-      beforeSend: setHeader
-    }),
+    // $.ajax({
+    //   url: 'https://api.airtable.com/v0/app0nHzjgm8HEKOCQ/Main',
+    //   type: 'GET',
+    //   dataType: 'json',
+    //   // success: function() { alert('data fetch from airtable succeeded'); },
+    //   error: function() { alert('data fetch from airtable failed'); },
+    //   beforeSend: setHeader
+    // }),
     getJSON(
       "https://docs.mapbox.com/mapbox-gl-js/assets/ne_110m_admin_1_states_provinces_shp.geojson"
     ),
