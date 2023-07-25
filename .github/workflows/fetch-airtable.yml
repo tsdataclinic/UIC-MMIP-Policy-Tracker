@@ -1,7 +1,7 @@
 name: fetch-data-from-airtable
 
 on:
-  # push:
+  workflow_dispatch:
   schedule:
     - cron: "00 05 * * *"    #runs at 05:00am UTC everyday
 
