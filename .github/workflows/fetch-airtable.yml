@@ -1,0 +1,41 @@
+name: fetch-data-from-airtable
+
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: "30 23 * * *"    #runs at 11:30pm UTC everyday
+
+jobs:
+  getdata:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3.5.3
+    - name: Setup Python
+      uses: actions/setup-python@v4.7.0
+      with:
+        python-version: 3.9
+    - name: Install Python dependencies
+      uses: py-actions/py-dependency-install@v4
+      with:
+        path: "requirements.txt"
+        update-pip: "false"
+        update-setuptools: "false"
+        update-wheel: "false"
+    - name: Test env vars for python
+      run: python -c 'import os;print(os.environ)'
+      env:
+        ENV_SECRET: ${{ secrets.ENV_SECRET }} 
+        REPO_SECRET: ${{ secrets.REPO_SECRET }} 
+    - name: execute py script
+        run: |
+          python fetch_airtable_data.py
+          git config user.name kaushik12
+          git config user.email kaushik.mohan@twosigma.com
+          git add .
+          git commit -m "Latest airtable data"
+          git push
+        env:
+          AIRTABLE_ACCESS_TOKEN: ${{ secrets.AIRTABLE_ACCESS_TOKEN }} 
+          AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }} 
+

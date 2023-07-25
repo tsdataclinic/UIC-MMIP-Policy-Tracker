@@ -19,8 +19,7 @@ const getMostFrequentElement = (array) => {
   return -1;
 };
 
-mapboxgl.accessToken =
-  "pk.eyJ1IjoiaW1hZGF2ZWxvcGVyIiwiYSI6ImNrZTdxZ3RiNjBydnYycXRmZm5vbzJnMm0ifQ.HvEjXY7eSD4PaQTL1Uhv6Q";
+mapboxgl.accessToken = "pk.eyJ1IjoiaW1hZGF2ZWxvcGVyIiwiYSI6ImNrZTdxZ3RiNjBydnYycXRmZm5vbzJnMm0ifQ.HvEjXY7eSD4PaQTL1Uhv6Q";
 
 // var bounds = [
 //   [-95.3566105298246, 13.0517966258875], // Southwest coordinates, ,
@@ -364,6 +363,9 @@ const createPopulationPopoverHtml = (stateName, population, population_pct) => {
     <li>Population %: ${population_pct.toFixed(2)} %</li></ul>`;
 };
 
+function setHeader(xhr) {
+  xhr.setRequestHeader('Authorization', 'Bearer patW3FMSYqECLCQom.4649b47503049256a59f86ad0d9acd6bf964595af0708a91da6908f25f1ae5b6');
+}
 
 map.on("load", async function () {
   // resetMap = document.getElementById("reset_button");
@@ -371,15 +373,27 @@ map.on("load", async function () {
   //   map.flyTo({ center: [-96.4913263, 35.6634238], zoom: 4 });
   // });
 
-  const [policyTrackerData, states_geojson, population_data] = await Promise.all([
-    getJSON("policyTrackerDec2021.json"),
+  const [policyTrackerResponse, states_geojson, population_data] = await Promise.all([
+    getJSON("policyTacker_latest.json"),
+    // getJSON("policyTrackerDec2021.json"),
+    // $.ajax({
+    //   url: 'https://api.airtable.com/v0/app0nHzjgm8HEKOCQ/Main',
+    //   type: 'GET',
+    //   dataType: 'json',
+    //   // success: function() { alert('data fetch from airtable succeeded'); },
+    //   error: function() { alert('data fetch from airtable failed'); },
+    //   beforeSend: setHeader
+    // }),
     getJSON(
       "https://docs.mapbox.com/mapbox-gl-js/assets/ne_110m_admin_1_states_provinces_shp.geojson"
     ),
     getJSON("census/population.geojson")
   ]);
+  
+  const policyTrackerData = policyTrackerResponse.records.map(e => e.fields)
+  
   const policyTrackerDataMapByState = _.groupBy(policyTrackerData, "State");
-
+  
   const mergedData = _.map(states_geojson.features, (state, index) => {
     const shortName = state.properties.postal;
     const policies = policyTrackerDataMapByState[shortName];
