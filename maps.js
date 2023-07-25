@@ -389,7 +389,7 @@ map.on("load", async function () {
   // const policyTrackerData = policyTrackerResponse.records.map(e => e.fields)
   console.log(policyTrackerData)
   const policyTrackerDataMapByState = _.groupBy(policyTrackerData, "State");
-  
+  console.log(policyTrackerDataMapByState)
   const mergedData = _.map(states_geojson.features, (state, index) => {
     const shortName = state.properties.postal;
     const policies = policyTrackerDataMapByState[shortName];
