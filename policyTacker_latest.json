@@ -1,7 +1,7 @@
 [
   {
     "State":"State",
-    "Initiative Name":"Initiative Name",
+    "Name":"Initiative Name",
     "House Number":"House Number",
     "Senate Number":"Senate Number",
     "Executive Order":"Executive Order",
@@ -28,7 +28,7 @@
   },
   {
     "State":"OH",
-    "Initiative Name":"No Results",
+    "Name":"No Results",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -55,7 +55,7 @@
   },
   {
     "State":"NM",
-    "Initiative Name":"A Memorial Honoring the Families of Missing and Murdered Indigenous Women and Relatives.",
+    "Name":"A Memorial Honoring the Families of Missing and Murdered Indigenous Women and Relatives.",
     "House Number":"",
     "Senate Number":"NM SM 18",
     "Executive Order":"",
@@ -82,7 +82,7 @@
   },
   {
     "State":"SC",
-    "Initiative Name":"",
+    "Name":"",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -109,7 +109,7 @@
   },
   {
     "State":"MN",
-    "Initiative Name":"A Bill for an Act Relating to Human Rights; Creating an Office for Missing and Murdered Indigenous Relatives; Requiring a Report; Appropriating Money; Proposing Coding for New Law in Minnesota Statutes, Chapter 241",
+    "Name":"A Bill for an Act Relating to Human Rights; Creating an Office for Missing and Murdered Indigenous Relatives; Requiring a Report; Appropriating Money; Proposing Coding for New Law in Minnesota Statutes, Chapter 241",
     "House Number":"MN HF 2124",
     "Senate Number":"MN SF 1989",
     "Executive Order":"",
@@ -136,7 +136,7 @@
   },
   {
     "State":"AL",
-    "Initiative Name":"No Results",
+    "Name":"No Results",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -163,7 +163,7 @@
   },
   {
     "State":"MT",
-    "Initiative Name":"MT HB98                                                                                                                                                                                                                                                                                                                                                                                                                Bill Title: \"Extending the Missing Indigenous Persons Task Force and the LINC grant program\"                                                                                                                                                                                                                                                              ",
+    "Name":"MT HB98                                                                                                                                                                                                                                                                                                                                                                                                                Bill Title: \"Extending the Missing Indigenous Persons Task Force and the LINC grant program\"                                                                                                                                                                                                                                                              ",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -190,7 +190,7 @@
   },
   {
     "State":"PA",
-    "Initiative Name":"No Results",
+    "Name":"No Results",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -217,7 +217,7 @@
   },
   {
     "State":"NY",
-    "Initiative Name":"NY S06924                                                                                                                                                                                                                    Bill Title: \"Establishes a task force on missing women and girls who are black, indigenous and people of color (BIPOC) to develop policy changes that will work to address the lack of care and concern for missing and murdered BIPOC women and girls with New York state governmental agencies.\"",
+    "Name":"NY S06924                                                                                                                                                                                                                    Bill Title: \"Establishes a task force on missing women and girls who are black, indigenous and people of color (BIPOC) to develop policy changes that will work to address the lack of care and concern for missing and murdered BIPOC women and girls with New York state governmental agencies.\"",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -244,7 +244,7 @@
   },
   {
     "State":"AZ",
-    "Initiative Name":"An Act Amending Laws 2019, Chapter 232, Section 1; Appropriating Monies; Relating to the Study Committee on Missing and Murdered Indigenous Peoples.",
+    "Name":"An Act Amending Laws 2019, Chapter 232, Section 1; Appropriating Monies; Relating to the Study Committee on Missing and Murdered Indigenous Peoples.",
     "House Number":"AZ HB 2099",
     "Senate Number":"",
     "Executive Order":"",
@@ -271,7 +271,7 @@
   },
   {
     "State":"TX",
-    "Initiative Name":"No Results",
+    "Name":"No Results",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -298,7 +298,7 @@
   },
   {
     "State":"TX",
-    "Initiative Name":"",
+    "Name":"",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -325,7 +325,7 @@
   },
   {
     "State":"ND",
-    "Initiative Name":"Proclamation of MMIWP Awareness Day",
+    "Name":"Proclamation of MMIWP Awareness Day",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"E.O.  14053",
@@ -352,7 +352,7 @@
   },
   {
     "State":"NY",
-    "Initiative Name":"An Act to Establish a Task Force on Missing Women and Girls Who Are Black, Indigenous, and People of Color; and Providing for the Repeal of Such Provisions Upon Expiration Thereof",
+    "Name":"An Act to Establish a Task Force on Missing Women and Girls Who Are Black, Indigenous, and People of Color; and Providing for the Repeal of Such Provisions Upon Expiration Thereof",
     "House Number":"",
     "Senate Number":"NY SB 6924",
     "Executive Order":"",
@@ -379,7 +379,7 @@
   },
   {
     "State":"UT",
-    "Initiative Name":"Murdered and Missing Indigenous Women and Girls Task Force",
+    "Name":"Murdered and Missing Indigenous Women and Girls Task Force",
     "House Number":"UT HB 41",
     "Senate Number":"",
     "Executive Order":"",
@@ -406,7 +406,7 @@
   },
   {
     "State":"VA",
-    "Initiative Name":"",
+    "Name":"",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -433,7 +433,7 @@
   },
   {
     "State":"ND",
-    "Initiative Name":"No Results",
+    "Name":"No Results",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -460,7 +460,7 @@
   },
   {
     "State":"ND",
-    "Initiative Name":"Implementation of Not Invisible Act Executive Order for a Commission",
+    "Name":"Implementation of Not Invisible Act Executive Order for a Commission",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"E.O.  14053",
@@ -487,7 +487,7 @@
   },
   {
     "State":"KS",
-    "Initiative Name":"Providing for the Attorney General to Coordinate Training for Law Enforcement Agencies on Missing and Murdered Indigenous People.",
+    "Name":"Providing for the Attorney General to Coordinate Training for Law Enforcement Agencies on Missing and Murdered Indigenous People.",
     "House Number":"KS HB 2008",
     "Senate Number":"",
     "Executive Order":"",
@@ -514,7 +514,7 @@
   },
   {
     "State":"AK",
-    "Initiative Name":"Pilot Projects Launched to Address Missing and Murdered Indigenous Persons",
+    "Name":"Pilot Projects Launched to Address Missing and Murdered Indigenous Persons",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"\nE.O. 13898",
@@ -541,7 +541,7 @@
   },
   {
     "State":"OR",
-    "Initiative Name":"In 2021, the U.S. Attorney\u2019s Office will conduct formal tribal consultations with Oregon\u2019s nine tribal governments to discuss MMIP issues, develop MMIP community response plans, create a District of Oregon MMIP Working Group, further develop data surrounding Oregon MMIP cases, and increase collaboration among all involved entities who interact with MMIP cases.",
+    "Name":"In 2021, the U.S. Attorney\u2019s Office will conduct formal tribal consultations with Oregon\u2019s nine tribal governments to discuss MMIP issues, develop MMIP community response plans, create a District of Oregon MMIP Working Group, further develop data surrounding Oregon MMIP cases, and increase collaboration among all involved entities who interact with MMIP cases.",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -568,7 +568,7 @@
   },
   {
     "State":"OK",
-    "Initiative Name":"Ida's Law; Creates the Office of Liaison for Missing and Murdered Indigenous\nPersons",
+    "Name":"Ida's Law; Creates the Office of Liaison for Missing and Murdered Indigenous\nPersons",
     "House Number":"",
     "Senate Number":"OK SB 172 + OK SB 230",
     "Executive Order":"",
@@ -595,7 +595,7 @@
   },
   {
     "State":"CA",
-    "Initiative Name":"Relative to Missing and Murdered Indigenous Women and Girls Awareness Month.",
+    "Name":"Relative to Missing and Murdered Indigenous Women and Girls Awareness Month.",
     "House Number":"CA AR 40 + CA ACR 136",
     "Senate Number":"CA SCR 107",
     "Executive Order":"",
@@ -622,7 +622,7 @@
   },
   {
     "State":"KY",
-    "Initiative Name":"No Results",
+    "Name":"No Results",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -649,7 +649,7 @@
   },
   {
     "State":"MN",
-    "Initiative Name":"MN HF2124                                                                                                                                                                                                                                     Bill Title: \"Office for missing and murdered indigenous relatives created, report required, and money appropriated\"                                                                                                                                          ",
+    "Name":"MN HF2124                                                                                                                                                                                                                                     Bill Title: \"Office for missing and murdered indigenous relatives created, report required, and money appropriated\"                                                                                                                                          ",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -676,7 +676,7 @@
   },
   {
     "State":"OK",
-    "Initiative Name":"OK SB230                                                                                                                                                                                                                                                                                                                                                             Bill Title: \"Missing and murdered indigenous persons; creating Ida's law. Effective date\"                                                                                                                                                                                                                        \n",
+    "Name":"OK SB230                                                                                                                                                                                                                                                                                                                                                             Bill Title: \"Missing and murdered indigenous persons; creating Ida's law. Effective date\"                                                                                                                                                                                                                        \n",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -703,7 +703,7 @@
   },
   {
     "State":"VA",
-    "Initiative Name":"No Results",
+    "Name":"No Results",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -730,7 +730,7 @@
   },
   {
     "State":"NE",
-    "Initiative Name":"Nebraska MMIP Study",
+    "Name":"Nebraska MMIP Study",
     "House Number":"LB 154 Study",
     "Senate Number":"",
     "Executive Order":"",
@@ -757,7 +757,7 @@
   },
   {
     "State":"CT",
-    "Initiative Name":"",
+    "Name":"",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -784,7 +784,7 @@
   },
   {
     "State":"CO",
-    "Initiative Name":"A Bill for an Act Concerning Responding to the Missing Indigenous Persons Crisis, and, in Connection Therewith, Establishing the Office of Liaison for Missing and Murdered Indigenous Relatives.",
+    "Name":"A Bill for an Act Concerning Responding to the Missing Indigenous Persons Crisis, and, in Connection Therewith, Establishing the Office of Liaison for Missing and Murdered Indigenous Relatives.",
     "House Number":"",
     "Senate Number":"SB 150",
     "Executive Order":"",
@@ -811,7 +811,7 @@
   },
   {
     "State":"DE",
-    "Initiative Name":"No Results",
+    "Name":"No Results",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -838,7 +838,7 @@
   },
   {
     "State":"NC",
-    "Initiative Name":"Proclamation of MMIWP Awareness Day",
+    "Name":"Proclamation of MMIWP Awareness Day",
     "House Number":"H.R. 2438",
     "Senate Number":"",
     "Executive Order":"",
@@ -865,7 +865,7 @@
   },
   {
     "State":"AZ",
-    "Initiative Name":"\"Missing and murdered indigenous peoples\"",
+    "Name":"\"Missing and murdered indigenous peoples\"",
     "House Number":"HB2099",
     "Senate Number":"",
     "Executive Order":"",
@@ -892,7 +892,7 @@
   },
   {
     "State":"IL",
-    "Initiative Name":"Task Force on Missing and Murdered Chicago Women Act",
+    "Name":"Task Force on Missing and Murdered Chicago Women Act",
     "House Number":"HB3988",
     "Senate Number":"",
     "Executive Order":"",
@@ -919,7 +919,7 @@
   },
   {
     "State":"AK",
-    "Initiative Name":"US Law Enforcement, Tribal Law Enforcement",
+    "Name":"US Law Enforcement, Tribal Law Enforcement",
     "House Number":"",
     "Senate Number":"SB 211",
     "Executive Order":"",
@@ -946,7 +946,7 @@
   },
   {
     "State":"ME",
-    "Initiative Name":"Joint Resolution Recognizing May 5, 2021 as National Day of Awareness for Missing and Murdered Native Women and Girls",
+    "Name":"Joint Resolution Recognizing May 5, 2021 as National Day of Awareness for Missing and Murdered Native Women and Girls",
     "House Number":"ME HP 1220",
     "Senate Number":"",
     "Executive Order":"",
@@ -973,7 +973,7 @@
   },
   {
     "State":"WA",
-    "Initiative Name":"*Attorney General Bob Ferguson announced that his office will lead 21-member task force to assess systemic causes behind the high rate of disappearances and murders of Indigenous women on 5\/5\/21",
+    "Name":"*Attorney General Bob Ferguson announced that his office will lead 21-member task force to assess systemic causes behind the high rate of disappearances and murders of Indigenous women on 5\/5\/21",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -1000,7 +1000,7 @@
   },
   {
     "State":"OH",
-    "Initiative Name":"",
+    "Name":"",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -1027,7 +1027,7 @@
   },
   {
     "State":"National",
-    "Initiative Name":"Expressing support for the designation of May 5, 2021, as the \"National Day of Awareness for Missing and Murdered Native Women and Girls\"                                                                                                                                                                           ",
+    "Name":"Expressing support for the designation of May 5, 2021, as the \"National Day of Awareness for Missing and Murdered Native Women and Girls\"                                                                                                                                                                           ",
     "House Number":"HR368",
     "Senate Number":"",
     "Executive Order":"",
@@ -1054,7 +1054,7 @@
   },
   {
     "State":"National",
-    "Initiative Name":"Expressing support for the designation of May 5, 2021, as the \u201cNational Day of Awareness for Missing and Murdered",
+    "Name":"Expressing support for the designation of May 5, 2021, as the \u201cNational Day of Awareness for Missing and Murdered",
     "House Number":"H.Res.368",
     "Senate Number":"",
     "Executive Order":"",
@@ -1081,7 +1081,7 @@
   },
   {
     "State":"CA",
-    "Initiative Name":"Relative to Missing and Murdered Indigenous Women and Girls Awareness Month",
+    "Name":"Relative to Missing and Murdered Indigenous Women and Girls Awareness Month",
     "House Number":"AR40",
     "Senate Number":"",
     "Executive Order":"",
@@ -1108,7 +1108,7 @@
   },
   {
     "State":"HI",
-    "Initiative Name":"Requesting The Hawaii State Commission On The Status Of Women To Convene A Task Force To Study Missing And Murdered Native Hawaiian Women And Girls",
+    "Name":"Requesting The Hawaii State Commission On The Status Of Women To Convene A Task Force To Study Missing And Murdered Native Hawaiian Women And Girls",
     "House Number":"HR12",
     "Senate Number":"",
     "Executive Order":"",
@@ -1135,7 +1135,7 @@
   },
   {
     "State":"MA",
-    "Initiative Name":"No Results",
+    "Name":"No Results",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -1162,7 +1162,7 @@
   },
   {
     "State":"MT",
-    "Initiative Name":"Tribal Community Response Plan",
+    "Name":"Tribal Community Response Plan",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"E.O.13898",
@@ -1189,7 +1189,7 @@
   },
   {
     "State":"AK",
-    "Initiative Name":"Alaska\u2019s Missing and Murdered Indigenous Persons Pilot Project (Pilot Project",
+    "Name":"Alaska\u2019s Missing and Murdered Indigenous Persons Pilot Project (Pilot Project",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -1216,7 +1216,7 @@
   },
   {
     "State":"DE",
-    "Initiative Name":"",
+    "Name":"",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -1243,7 +1243,7 @@
   },
   {
     "State":"NV",
-    "Initiative Name":"",
+    "Name":"",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -1270,7 +1270,7 @@
   },
   {
     "State":"SD",
-    "Initiative Name":"SD HB1199                                                                                                                                Bill Title: \"Establish the Office of Liaison for Missing and Murdered Indigenous Persons\"",
+    "Name":"SD HB1199                                                                                                                                Bill Title: \"Establish the Office of Liaison for Missing and Murdered Indigenous Persons\"",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -1297,7 +1297,7 @@
   },
   {
     "State":"National",
-    "Initiative Name":"A Resolution Designating May 5, 2021, as the \"National Day of Awareness for Missing and Murdered Native Women and Girls\"",
+    "Name":"A Resolution Designating May 5, 2021, as the \"National Day of Awareness for Missing and Murdered Native Women and Girls\"",
     "House Number":"",
     "Senate Number":"S.Res.196",
     "Executive Order":"",
@@ -1324,7 +1324,7 @@
   },
   {
     "State":"FL",
-    "Initiative Name":"",
+    "Name":"",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -1351,7 +1351,7 @@
   },
   {
     "State":"OK",
-    "Initiative Name":"                                                                                                                                                                                                                     OK HB2733                                                                                                                                                 Bill Title: \"Indigenous persons; Ida's Law; Office of Liaison for Missing and Murdered Indigenous Persons; requirements; effective date.                                                                                                                                  \n",
+    "Name":"                                                                                                                                                                                                                     OK HB2733                                                                                                                                                 Bill Title: \"Indigenous persons; Ida's Law; Office of Liaison for Missing and Murdered Indigenous Persons; requirements; effective date.                                                                                                                                  \n",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -1378,7 +1378,7 @@
   },
   {
     "State":"NJ",
-    "Initiative Name":"NJ SR88                                                                                                                                                                                                                                                                                                                                                        Resolution Title: \"Urges US Department of Justice to dedicate additional resources to solving cases involving missing or murdered Native American women and girls\"",
+    "Name":"NJ SR88                                                                                                                                                                                                                                                                                                                                                        Resolution Title: \"Urges US Department of Justice to dedicate additional resources to solving cases involving missing or murdered Native American women and girls\"",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -1405,7 +1405,7 @@
   },
   {
     "State":"NM",
-    "Initiative Name":"Establishes a MMIP Task Force",
+    "Name":"Establishes a MMIP Task Force",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"Executive Order 2021-013",
@@ -1432,7 +1432,7 @@
   },
   {
     "State":"TN",
-    "Initiative Name":"",
+    "Name":"",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -1459,7 +1459,7 @@
   },
   {
     "State":"GA",
-    "Initiative Name":"",
+    "Name":"",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -1486,7 +1486,7 @@
   },
   {
     "State":"AK",
-    "Initiative Name":"Alaska's MMIP Pilot Program",
+    "Name":"Alaska's MMIP Pilot Program",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -1513,7 +1513,7 @@
   },
   {
     "State":"AK",
-    "Initiative Name":"An Act Relating to the Alaska Police Standards Council; Relating to the Department of Public Safety; Relating to the Duties of the Attorney General; Establishing the Missing and Murdered Indigenous Women, Girls, and Two-spirit Persons Review Commission",
+    "Name":"An Act Relating to the Alaska Police Standards Council; Relating to the Department of Public Safety; Relating to the Duties of the Attorney General; Establishing the Missing and Murdered Indigenous Women, Girls, and Two-spirit Persons Review Commission",
     "House Number":"",
     "Senate Number":"AK SB 211",
     "Executive Order":"",
@@ -1540,7 +1540,7 @@
   },
   {
     "State":"WI",
-    "Initiative Name":"creating a task force on missing and murdered tribal women and girls and making an appropriation (and task force site)",
+    "Name":"creating a task force on missing and murdered tribal women and girls and making an appropriation (and task force site)",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -1567,7 +1567,7 @@
   },
   {
     "State":"WA",
-    "Initiative Name":"WA HB1571                                                                                                                                                                                                               Bill Title: \"Concerning protections and services for indigenous persons who are missing, murdered, or survivors of human trafficking\"                                                          ",
+    "Name":"WA HB1571                                                                                                                                                                                                               Bill Title: \"Concerning protections and services for indigenous persons who are missing, murdered, or survivors of human trafficking\"                                                          ",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -1594,7 +1594,7 @@
   },
   {
     "State":"National",
-    "Initiative Name":"Violence Against Women Act Reauthorization Act of 2021",
+    "Name":"Violence Against Women Act Reauthorization Act of 2021",
     "House Number":"HR1620",
     "Senate Number":"",
     "Executive Order":"",
@@ -1621,7 +1621,7 @@
   },
   {
     "State":"MT",
-    "Initiative Name":"House Bill 36                                                                                                                                                                                                                                                                                                                                                                                                         Bill Title: \"Establish missing persons response team training grant program\"                                                                                                                                                                                                                                                                                   ",
+    "Name":"House Bill 36                                                                                                                                                                                                                                                                                                                                                                                                         Bill Title: \"Establish missing persons response team training grant program\"                                                                                                                                                                                                                                                                                   ",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -1648,7 +1648,7 @@
   },
   {
     "State":"National",
-    "Initiative Name":"Expressing Support for the Designation of May 5, 2021, as the \u201cNational Day of Awareness for Missing and Murdered Native Women and Girls.\u201d",
+    "Name":"Expressing Support for the Designation of May 5, 2021, as the \u201cNational Day of Awareness for Missing and Murdered Native Women and Girls.\u201d",
     "House Number":"H.Res.368",
     "Senate Number":"",
     "Executive Order":"",
@@ -1675,7 +1675,7 @@
   },
   {
     "State":"MO",
-    "Initiative Name":"No Results",
+    "Name":"No Results",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -1702,7 +1702,7 @@
   },
   {
     "State":"MD",
-    "Initiative Name":"",
+    "Name":"",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -1729,7 +1729,7 @@
   },
   {
     "State":"AL",
-    "Initiative Name":"",
+    "Name":"",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -1756,7 +1756,7 @@
   },
   {
     "State":"RI",
-    "Initiative Name":"",
+    "Name":"",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -1783,7 +1783,7 @@
   },
   {
     "State":"CO",
-    "Initiative Name":"No Results",
+    "Name":"No Results",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -1810,7 +1810,7 @@
   },
   {
     "State":"VT",
-    "Initiative Name":"No Results",
+    "Name":"No Results",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -1837,7 +1837,7 @@
   },
   {
     "State":"ME",
-    "Initiative Name":"Joint resolution recognizing May 5, 2021 as National Day of Awareness for Missing and Murdered Indigenous Women and Girls",
+    "Name":"Joint resolution recognizing May 5, 2021 as National Day of Awareness for Missing and Murdered Indigenous Women and Girls",
     "House Number":"HP1220",
     "Senate Number":"",
     "Executive Order":"",
@@ -1864,7 +1864,7 @@
   },
   {
     "State":"IN",
-    "Initiative Name":"",
+    "Name":"",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -1891,7 +1891,7 @@
   },
   {
     "State":"MT",
-    "Initiative Name":"Completion of the first Tribal Community Response Plan",
+    "Name":"Completion of the first Tribal Community Response Plan",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -1918,7 +1918,7 @@
   },
   {
     "State":"ID",
-    "Initiative Name":"",
+    "Name":"",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -1945,7 +1945,7 @@
   },
   {
     "State":"NM",
-    "Initiative Name":"*Executive Order 2021-013: New Mexico Missing and Murdered Indigenous Women and Relatives Task Force",
+    "Name":"*Executive Order 2021-013: New Mexico Missing and Murdered Indigenous Women and Relatives Task Force",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -1972,7 +1972,7 @@
   },
   {
     "State":"MT",
-    "Initiative Name":"An Act Extending Termination of the Missing Indigenous Persons Task Force and Grant Program It Adminsters ",
+    "Name":"An Act Extending Termination of the Missing Indigenous Persons Task Force and Grant Program It Adminsters ",
     "House Number":"MT HB 98",
     "Senate Number":"MT SB 4",
     "Executive Order":"",
@@ -1999,7 +1999,7 @@
   },
   {
     "State":"MI",
-    "Initiative Name":"U.S. Attorney General\u2019s Missing and Murdered Indigenous Persons Initiative ",
+    "Name":"U.S. Attorney General\u2019s Missing and Murdered Indigenous Persons Initiative ",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"\nE.O. 13898",
@@ -2026,7 +2026,7 @@
   },
   {
     "State":"NM",
-    "Initiative Name":"NM HB208                                                                                                                                                                                                                                                                                                                                                              Bill Title: \"Missing & Murdered Indigenous Women\"                                                                                                 ",
+    "Name":"NM HB208                                                                                                                                                                                                                                                                                                                                                              Bill Title: \"Missing & Murdered Indigenous Women\"                                                                                                 ",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -2053,7 +2053,7 @@
   },
   {
     "State":"KEY: Red font is pending status;  State is State abbreviation, House Number is the number of the bill in the House, Data Entry Key for Numbered Categories\nStatus (1 = Passed, 0= Failed, 2= Pending)\nGender Inclusive language (2= yes, 1= No, 3= TBD or TCRP-specific)\nPrevention efforts (2= yes, 1= No, 3= TBD or TCRP-specific)\nMechanisms for evaluation (2= yes, 1= No, 3= TBD or TCRP-specific)\n\nPROCCESS NOTE: We have noticed some gaps in Cardozo's analysis. We plan 2 phases for this spreadsheet: 1) Organizing the data to align with our AitTable database 2) Filling in the gaps of Cardozo's analysis on qualitative fields such as \"Mechanisms for Evaluation\" 0 = none\n1 = 1- No text explicitly calling for the participation of survivors or relatives of MMIP+.The task force is requested to consider inviting additional organizations or agencies to participate on the task force, as needed. Level of survivor \/ relative input (0 = no, 1 = No text explicitly calling for the participation of survivors or relatives of MMIP+. 2 = Somewhat 3 = Yes) In the UIC Position, green font represents positive points and red font represents negative points. Anything bolded has been changed from original wording.",
-    "Initiative Name":"",
+    "Name":"",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -2080,7 +2080,7 @@
   },
   {
     "State":"OR",
-    "Initiative Name":"USAO MMIP Report",
+    "Name":"USAO MMIP Report",
     "House Number":"",
     "Senate Number":"S.227 + S.982",
     "Executive Order":"",
@@ -2107,7 +2107,7 @@
   },
   {
     "State":"DC",
-    "Initiative Name":"",
+    "Name":"",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -2134,7 +2134,7 @@
   },
   {
     "State":"MN",
-    "Initiative Name":"MN SF1989                                                                                                                                                                                                                                     Bill Title: \"Office for missing and murdered indigenous relatives office creation and appropriation\"                                                       ",
+    "Name":"MN SF1989                                                                                                                                                                                                                                     Bill Title: \"Office for missing and murdered indigenous relatives office creation and appropriation\"                                                       ",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -2161,7 +2161,7 @@
   },
   {
     "State":"MD",
-    "Initiative Name":"No Results",
+    "Name":"No Results",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -2188,7 +2188,7 @@
   },
   {
     "State":"MO",
-    "Initiative Name":"",
+    "Name":"",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -2215,7 +2215,7 @@
   },
   {
     "State":"WA",
-    "Initiative Name":"An Act Relating to the Creation of an Endangered Missing Person Advisory Designation for Missing Indigenous Women and Persons; and Amending Rcw 13.60.010.",
+    "Name":"An Act Relating to the Creation of an Endangered Missing Person Advisory Designation for Missing Indigenous Women and Persons; and Amending Rcw 13.60.010.",
     "House Number":"WA HB 1639",
     "Senate Number":"",
     "Executive Order":"",
@@ -2242,7 +2242,7 @@
   },
   {
     "State":"SC",
-    "Initiative Name":"No Results",
+    "Name":"No Results",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -2269,7 +2269,7 @@
   },
   {
     "State":"MT",
-    "Initiative Name":"Establishes a Missing Persons Review Commission\n",
+    "Name":"Establishes a Missing Persons Review Commission\n",
     "House Number":"MT HB 35",
     "Senate Number":"",
     "Executive Order":"",
@@ -2296,7 +2296,7 @@
   },
   {
     "State":"DC",
-    "Initiative Name":"No Results",
+    "Name":"No Results",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -2323,7 +2323,7 @@
   },
   {
     "State":"NM",
-    "Initiative Name":"Creating a Position in the Attorney General's Office for a Missing Indigenous Person's Specialist",
+    "Name":"Creating a Position in the Attorney General's Office for a Missing Indigenous Person's Specialist",
     "House Number":"",
     "Senate Number":"NM SB 12",
     "Executive Order":"",
@@ -2350,7 +2350,7 @@
   },
   {
     "State":"AR",
-    "Initiative Name":"No Results",
+    "Name":"No Results",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -2377,7 +2377,7 @@
   },
   {
     "State":"",
-    "Initiative Name":"",
+    "Name":"",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -2404,7 +2404,7 @@
   },
   {
     "State":"NH",
-    "Initiative Name":"",
+    "Name":"",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -2431,7 +2431,7 @@
   },
   {
     "State":"IA",
-    "Initiative Name":"No Results",
+    "Name":"No Results",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -2458,7 +2458,7 @@
   },
   {
     "State":"WI",
-    "Initiative Name":"2021 Senate Joint Resolution 51 Enacting MMIP Awareness Day in WI",
+    "Name":"2021 Senate Joint Resolution 51 Enacting MMIP Awareness Day in WI",
     "House Number":"",
     "Senate Number":"WI SJR 51",
     "Executive Order":"",
@@ -2485,7 +2485,7 @@
   },
   {
     "State":"LA",
-    "Initiative Name":"Governor's Task Force on Murdered and Missing Indigenous Women and Girls",
+    "Name":"Governor's Task Force on Murdered and Missing Indigenous Women and Girls",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -2512,7 +2512,7 @@
   },
   {
     "State":"FL",
-    "Initiative Name":"No Results",
+    "Name":"No Results",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -2539,7 +2539,7 @@
   },
   {
     "State":"RI",
-    "Initiative Name":"No Results",
+    "Name":"No Results",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -2566,7 +2566,7 @@
   },
   {
     "State":"KY",
-    "Initiative Name":"",
+    "Name":"",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -2593,7 +2593,7 @@
   },
   {
     "State":"HI",
-    "Initiative Name":"Bill Title: Requesting The Hawaii State Commission On The Status Of Women To Convene A Task Force To Study Missing And Murdered Native Hawaiian Women And Girls",
+    "Name":"Bill Title: Requesting The Hawaii State Commission On The Status Of Women To Convene A Task Force To Study Missing And Murdered Native Hawaiian Women And Girls",
     "House Number":"",
     "Senate Number":"SR7",
     "Executive Order":"",
@@ -2620,7 +2620,7 @@
   },
   {
     "State":"MT",
-    "Initiative Name":"MT SB4                                                                                                                                                                                                                                                                                                                                                                                                                     Bill Title: \"Extend the Missing Indigenous Persons Taskforce\"                                                                                                                                                                                                                                                                                                                             ",
+    "Name":"MT SB4                                                                                                                                                                                                                                                                                                                                                                                                                     Bill Title: \"Extend the Missing Indigenous Persons Taskforce\"                                                                                                                                                                                                                                                                                                                             ",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -2647,7 +2647,7 @@
   },
   {
     "State":"MN",
-    "Initiative Name":"A Bill for an Act Relating to Public Safety; Establishing a Reward Fund for Information on Missing and Murdered Indigenous Relatives; Appropriating Money; Proposing Coding for New Law in Minnesota Statutes, Chapter 299a",
+    "Name":"A Bill for an Act Relating to Public Safety; Establishing a Reward Fund for Information on Missing and Murdered Indigenous Relatives; Appropriating Money; Proposing Coding for New Law in Minnesota Statutes, Chapter 299a",
     "House Number":"MN HB 3055",
     "Senate Number":"MN SF 2828 ",
     "Executive Order":"",
@@ -2674,7 +2674,7 @@
   },
   {
     "State":"WY",
-    "Initiative Name":"",
+    "Name":"",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -2701,7 +2701,7 @@
   },
   {
     "State":"NM",
-    "Initiative Name":"Requires an Extension of the MMIP Task Force",
+    "Name":"Requires an Extension of the MMIP Task Force",
     "House Number":"NM HB 208",
     "Senate Number":"",
     "Executive Order":"",
@@ -2728,7 +2728,7 @@
   },
   {
     "State":"NJ",
-    "Initiative Name":"Urges the United States Department of Justice to Dedicate Additional Resources to Solving Cases Involving Missing or Murdered Native American Women and Girls.",
+    "Name":"Urges the United States Department of Justice to Dedicate Additional Resources to Solving Cases Involving Missing or Murdered Native American Women and Girls.",
     "House Number":"",
     "Senate Number":"NJ SR 88",
     "Executive Order":"",
@@ -2755,7 +2755,7 @@
   },
   {
     "State":"AZ",
-    "Initiative Name":"Establishing The Study Committee On Missing And Murdered Indigenous Peoples; Appropriating Monies",
+    "Name":"Establishing The Study Committee On Missing And Murdered Indigenous Peoples; Appropriating Monies",
     "House Number":" AZ HB 2139",
     "Senate Number":"AZ SB 1215",
     "Executive Order":"",
@@ -2782,7 +2782,7 @@
   },
   {
     "State":"IA",
-    "Initiative Name":"",
+    "Name":"",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -2809,7 +2809,7 @@
   },
   {
     "State":"GA",
-    "Initiative Name":"No Results",
+    "Name":"No Results",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -2836,7 +2836,7 @@
   },
   {
     "State":"KS",
-    "Initiative Name":"Providing money for the attorney general to coordinate training for law enforcement agencies on missing and murdered indigenous people",
+    "Name":"Providing money for the attorney general to coordinate training for law enforcement agencies on missing and murdered indigenous people",
     "House Number":"HB2008",
     "Senate Number":"",
     "Executive Order":"",
@@ -2863,7 +2863,7 @@
   },
   {
     "State":"VT",
-    "Initiative Name":"",
+    "Name":"",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -2890,7 +2890,7 @@
   },
   {
     "State":"SD",
-    "Initiative Name":"An Act to Establish the Office of Liaison for Missing and Murdered Indigenous Persons.",
+    "Name":"An Act to Establish the Office of Liaison for Missing and Murdered Indigenous Persons.",
     "House Number":"SD HB 1199",
     "Senate Number":"",
     "Executive Order":"",
@@ -2917,7 +2917,7 @@
   },
   {
     "State":"National",
-    "Initiative Name":"Violence Against Women Act Reauthorization Act of 2021",
+    "Name":"Violence Against Women Act Reauthorization Act of 2021",
     "House Number":"H.Res. 1620 ",
     "Senate Number":"",
     "Executive Order":"",
@@ -2944,7 +2944,7 @@
   },
   {
     "State":"WI",
-    "Initiative Name":"Missing and Murdered Indigenous Women Task Force",
+    "Name":"Missing and Murdered Indigenous Women Task Force",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"E.O 13898",
@@ -2971,7 +2971,7 @@
   },
   {
     "State":"ID",
-    "Initiative Name":"No Results",
+    "Name":"No Results",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -2998,7 +2998,7 @@
   },
   {
     "State":"AR",
-    "Initiative Name":"",
+    "Name":"",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -3025,7 +3025,7 @@
   },
   {
     "State":"OK",
-    "Initiative Name":"OK SB172                                                                                                                                                         Bill Title: \"Missing and murdered indigenous people; creating Ida's Law. Effective date.\"\n",
+    "Name":"OK SB172                                                                                                                                                         Bill Title: \"Missing and murdered indigenous people; creating Ida's Law. Effective date.\"\n",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -3052,7 +3052,7 @@
   },
   {
     "State":"National",
-    "Initiative Name":"A resolution designating May 5, 2021, as the \"National Day of Awareness for Missing and Murdered Native Women and Girls\"                                             ",
+    "Name":"A resolution designating May 5, 2021, as the \"National Day of Awareness for Missing and Murdered Native Women and Girls\"                                             ",
     "House Number":"",
     "Senate Number":"SR196",
     "Executive Order":"",
@@ -3079,7 +3079,7 @@
   },
   {
     "State":"MS",
-    "Initiative Name":"No Results",
+    "Name":"No Results",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -3106,7 +3106,7 @@
   },
   {
     "State":"MS",
-    "Initiative Name":"",
+    "Name":"",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -3133,7 +3133,7 @@
   },
   {
     "State":"National",
-    "Initiative Name":"Expressing the Sense of the House of Representatives to Recognize the Crisis of Violence Against Native Women.",
+    "Name":"Expressing the Sense of the House of Representatives to Recognize the Crisis of Violence Against Native Women.",
     "House Number":"H.Res.411",
     "Senate Number":"",
     "Executive Order":"",
@@ -3160,7 +3160,7 @@
   },
   {
     "State":"NH",
-    "Initiative Name":"No Results",
+    "Name":"No Results",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -3187,7 +3187,7 @@
   },
   {
     "State":"HI",
-    "Initiative Name":"Requesting the Hawaii State Commission on the Status of Women to Convene a Task Force to Study Missing and Murdered Native Hawaiian Women and Girls",
+    "Name":"Requesting the Hawaii State Commission on the Status of Women to Convene a Task Force to Study Missing and Murdered Native Hawaiian Women and Girls",
     "House Number":"HI HCR 11",
     "Senate Number":"",
     "Executive Order":"",
@@ -3214,7 +3214,7 @@
   },
   {
     "State":"OK",
-    "Initiative Name":"Ida's Law",
+    "Name":"Ida's Law",
     "House Number":"OK HB 2733",
     "Senate Number":"",
     "Executive Order":"",
@@ -3241,7 +3241,7 @@
   },
   {
     "State":"AK",
-    "Initiative Name":"An Act Relating to the Alaska Police Standards Council; Relating to the Department of Public Safety; and Providing for an Effective Date.",
+    "Name":"An Act Relating to the Alaska Police Standards Council; Relating to the Department of Public Safety; and Providing for an Effective Date.",
     "House Number":"AK HB 38",
     "Senate Number":"",
     "Executive Order":"",
@@ -3268,7 +3268,7 @@
   },
   {
     "State":"MT",
-    "Initiative Name":"House Bill 35                                                                                                                                                                                                                                                                                                                                                                                                          Bill Title: \"Establish a Missing Persons Review Commission\"                                                                                                                                                                                                                                                                                                                 ",
+    "Name":"House Bill 35                                                                                                                                                                                                                                                                                                                                                                                                          Bill Title: \"Establish a Missing Persons Review Commission\"                                                                                                                                                                                                                                                                                                                 ",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -3295,7 +3295,7 @@
   },
   {
     "State":"HI",
-    "Initiative Name":"Requesting the Hawaii State Commission on the Status of Women to Convene a Task Force to Study Missing and Murdered Native Hawaiian Women and Girls.",
+    "Name":"Requesting the Hawaii State Commission on the Status of Women to Convene a Task Force to Study Missing and Murdered Native Hawaiian Women and Girls.",
     "House Number":"",
     "Senate Number":"SR7 & SR7_SD1",
     "Executive Order":"",
@@ -3322,7 +3322,7 @@
   },
   {
     "State":"CT",
-    "Initiative Name":"No Results",
+    "Name":"No Results",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -3349,7 +3349,7 @@
   },
   {
     "State":"UT",
-    "Initiative Name":"UT HB0041                                                                                                                             Bill Title: \"Murdered and Missing Indigenous Women and Girls Task Force\"",
+    "Name":"UT HB0041                                                                                                                             Bill Title: \"Murdered and Missing Indigenous Women and Girls Task Force\"",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -3376,7 +3376,7 @@
   },
   {
     "State":"MA",
-    "Initiative Name":"",
+    "Name":"",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -3403,7 +3403,7 @@
   },
   {
     "State":"National",
-    "Initiative Name":"Expressing Support for the Designation of May 5, 2021, as the \u201cNational Day of Awareness for Missing and Murdered Native Women and Girls.\u201d",
+    "Name":"Expressing Support for the Designation of May 5, 2021, as the \u201cNational Day of Awareness for Missing and Murdered Native Women and Girls.\u201d",
     "House Number":"H.Res.369",
     "Senate Number":"",
     "Executive Order":"",
@@ -3430,7 +3430,7 @@
   },
   {
     "State":"NE",
-    "Initiative Name":"No Results",
+    "Name":"No Results",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -3457,7 +3457,7 @@
   },
   {
     "State":"WY",
-    "Initiative Name":"No Results",
+    "Name":"No Results",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -3484,7 +3484,7 @@
   },
   {
     "State":"WV",
-    "Initiative Name":"No Results",
+    "Name":"No Results",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -3511,7 +3511,7 @@
   },
   {
     "State":"PA",
-    "Initiative Name":"",
+    "Name":"",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -3538,7 +3538,7 @@
   },
   {
     "State":"MT",
-    "Initiative Name":"The Missing Persons Response Team Training Grant Program ",
+    "Name":"The Missing Persons Response Team Training Grant Program ",
     "House Number":"MT HB 36",
     "Senate Number":"MT SB 312",
     "Executive Order":"",
@@ -3565,7 +3565,7 @@
   },
   {
     "State":"IL",
-    "Initiative Name":"Missing & Murdered Chicago Women",
+    "Name":"Missing & Murdered Chicago Women",
     "House Number":"IL HB 3988 ",
     "Senate Number":"",
     "Executive Order":"",
@@ -3592,7 +3592,7 @@
   },
   {
     "State":"LA",
-    "Initiative Name":"Governor's Task Force on Murdered and Missing Indigenous Women and Girls",
+    "Name":"Governor's Task Force on Murdered and Missing Indigenous Women and Girls",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"LA EO JBE 2021-7",
@@ -3619,7 +3619,7 @@
   },
   {
     "State":"TN",
-    "Initiative Name":"No Results",
+    "Name":"No Results",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -3646,7 +3646,7 @@
   },
   {
     "State":"NV",
-    "Initiative Name":"No Results",
+    "Name":"No Results",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -3673,7 +3673,7 @@
   },
   {
     "State":"NC",
-    "Initiative Name":"No Results",
+    "Name":"No Results",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -3700,7 +3700,7 @@
   },
   {
     "State":"MI",
-    "Initiative Name":"Mighigan's Missing and Murdered Indigenous Persons Pilot Project (Pilot Project) - Press Release",
+    "Name":"Mighigan's Missing and Murdered Indigenous Persons Pilot Project (Pilot Project) - Press Release",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -3727,7 +3727,7 @@
   },
   {
     "State":"IN",
-    "Initiative Name":"No Results",
+    "Name":"No Results",
     "House Number":"",
     "Senate Number":"",
     "Executive Order":"",
@@ -3754,7 +3754,7 @@
   },
   {
     "State":"National",
-    "Initiative Name":"Expressing the sense of the House of Representatives to recognize the crisis of violence against Native women.",
+    "Name":"Expressing the sense of the House of Representatives to recognize the crisis of violence against Native women.",
     "House Number":"HR411",
     "Senate Number":"",
     "Executive Order":"",
@@ -3781,7 +3781,7 @@
   },
   {
     "State":"WA",
-    "Initiative Name":"An Act Relating to Protections and Services for Indigenous Persons Who Are Missing, Murdered, or Survivors of Human Trafficking; Amending Rcw 36.24.155, 13.60.010, and 68.50.320; Adding a New Section to Chapter",
+    "Name":"An Act Relating to Protections and Services for Indigenous Persons Who Are Missing, Murdered, or Survivors of Human Trafficking; Amending Rcw 36.24.155, 13.60.010, and 68.50.320; Adding a New Section to Chapter",
     "House Number":"WA HB 1571 + WA HB 1725",
     "Senate Number":"",
     "Executive Order":"",
