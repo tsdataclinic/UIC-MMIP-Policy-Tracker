@@ -38,6 +38,11 @@ const preventionEffortsMap = new Map();
 preventionEffortsMap.set(2, "green"); // Yes
 preventionEffortsMap.set(1, "red"); // No
 preventionEffortsMap.set(3, "orange"); // TBD or TCRP-specific
+const levelSurvivorInputColorMap =  new Map();
+levelSurvivorInputColorMap.set(0,"red"); //no
+levelSurvivorInputColorMap.set(1,"red"); //No text
+levelSurvivorInputColorMap.set(2,"orange"); //Somewhat
+levelSurvivorInputColorMap.set(3,"green"); //Yes
 const mechanismsForEvaluationMap = new Map();
 mechanismsForEvaluationMap.set(2, "green"); // Yes
 mechanismsForEvaluationMap.set(1, "red"); // No
@@ -141,6 +146,16 @@ const layers = {
     colorMap: mechanismsForEvaluationMap,
     pop_colname: "population",
     pct_colname: "population_pct",
+  },
+  levelSurvivorInput: {
+    id: "levelSurvivorInput",
+    layerName: "levelSurvivorInput-layer",
+    propertyName: "levelSurvivorInput",
+    buttonId: `levelSurvivorInput-btn`,
+    colorMap: levelSurvivorInputColorMap,
+    policyTrackerNumeralColumnName: "Level of Survivor \/ Relative Input?",
+    policyTrackerTextColumnName: "",
+    policyTrackerNumeralTextMap: ["", "No", "Somewhat", "Yes"],
   }
 };
 
@@ -356,6 +371,22 @@ const createMechanismForEvaluationPopoverHtml = (stateName, stateData) => {
     }</div></li>`;
   }).join("\n")}</ul>`;
 };
+const createlevelSurvivorInputPopoverHtml = (stateName, stateData) => {
+  const layer = layers.levelSurvivorInput;
+  return `<ul>${_.map(stateData, (it) => {
+    return `<li><span style="color:${(() => {
+      return layer.colorMap.get(it[layer.policyTrackerNumeralColumnName]);
+    })()}">(${layer.policyTrackerNumeralColumnName}: ${
+      layer.policyTrackerNumeralTextMap[
+        it[layer.policyTrackerNumeralColumnName]
+      ]
+    })</span> <a href="${
+      it["Link 1"]
+    }" target="_blank" rel="noopener noreferrer">${trimName(
+      it.Name
+    )}</li>`;
+  }).join("\n")}</ul>`;
+};
 const createPopulationPopoverHtml = (stateName, population, population_pct) => {
   const layer = layers.indigenousPopulation;
   return `<ul> ${stateName} \n
@@ -370,8 +401,8 @@ map.on("load", async function () {
   // });
 
   const [policyTrackerData, states_geojson, population_data] = await Promise.all([
+    // getJSON("policyTacker_2023.json"),
     getJSON("policyTacker_latest.json"),
-    // getJSON("policyTrackerDec2021.json"),
     // $.ajax({
     //   url: 'https://api.airtable.com/v0/app0nHzjgm8HEKOCQ/Main',
     //   type: 'GET',
@@ -387,13 +418,15 @@ map.on("load", async function () {
   ]);
   
   // const policyTrackerData = policyTrackerResponse.records.map(e => e.fields)
-  console.log(policyTrackerData)
+  // console.log(policyTrackerData)
   const policyTrackerDataMapByState = _.groupBy(policyTrackerData, "State");
   console.log(policyTrackerDataMapByState)
   const mergedData = _.map(states_geojson.features, (state, index) => {
     const shortName = state.properties.postal;
     const policies = policyTrackerDataMapByState[shortName];
-    
+    console.log(shortName)
+    console.log(policies)
+    console.log(policies.length)
     const pop_vals = population_data.features.filter(o => o.properties.state_code == shortName)
     // debugger
     return {
