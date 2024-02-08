@@ -154,7 +154,7 @@ const layers = {
     buttonId: `levelSurvivorInput-btn`,
     colorMap: levelSurvivorInputColorMap,
     policyTrackerNumeralColumnName: "Level of Survivor \/ Relative Input",
-    policyTrackerNumeralTextMap: ["", "No", "Somewhat", "Yes"],
+    policyTrackerNumeralTextMap: ["N/A", "No", "Somewhat", "Yes"],
   }
 };
 
