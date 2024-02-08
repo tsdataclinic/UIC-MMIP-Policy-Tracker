@@ -38,6 +38,11 @@ const preventionEffortsMap = new Map();
 preventionEffortsMap.set(2, "green"); // Yes
 preventionEffortsMap.set(1, "red"); // No
 preventionEffortsMap.set(3, "orange"); // TBD or TCRP-specific
+const levelSurvivorInputColorMap =  new Map();
+levelSurvivorInputColorMap.set(0,"red"); //No text
+levelSurvivorInputColorMap.set(1,"red"); //No text
+levelSurvivorInputColorMap.set(2,"orange"); //Somewhat
+levelSurvivorInputColorMap.set(3,"green"); //Yes
 const mechanismsForEvaluationMap = new Map();
 mechanismsForEvaluationMap.set(2, "green"); // Yes
 mechanismsForEvaluationMap.set(1, "red"); // No
@@ -141,6 +146,15 @@ const layers = {
     colorMap: mechanismsForEvaluationMap,
     pop_colname: "population",
     pct_colname: "population_pct",
+  },
+  levelSurvivorInput: {
+    id: "levelSurvivorInput",
+    layerName: "levelSurvivorInput-layer",
+    propertyName: "levelSurvivorInput",
+    buttonId: `levelSurvivorInput-btn`,
+    colorMap: levelSurvivorInputColorMap,
+    policyTrackerNumeralColumnName: "Level of Survivor \/ Relative Input",
+    policyTrackerNumeralTextMap: ["N/A", "No", "Somewhat", "Yes"],
   }
 };
 
@@ -254,12 +268,6 @@ const trimName = (name) => {
 const createStatusPopoverHtml = (stateName, stateData) => {
   const layer = layers.status;
   const externalLinkIcon = `<i class="fas fa-external-link-alt" style="margin-left:4px;color:skyblue;"></i>`;
-  const getNameHtml = (link, name) =>
-    _.isEmpty(link)
-      ? `<span>${trimName(name)}</span>`
-      : `<a href="${link}" target="_blank" rel="noopener noreferrer">${trimName(
-          name
-        )}${externalLinkIcon}</a>`;
   const getStatusHtml = (statusName, statusColor) =>
     `<span style="margin-left:3px;color:${statusColor}">${
       statusName
@@ -281,26 +289,21 @@ const createStatusPopoverHtml = (stateName, stateData) => {
       );
       return `<li class="margin-bottom:4px;">${getNameHtml(
         it["Link 1"],
-        it.Name
+        it.Name,
+        externalLinkIcon
       )}${getStatusHtml(statusName, statusColor)}</li>`;
     }
   ).join("\n")}</ul></div>`;
 };
 
-const createGenderInclusiveLanguagePopoverHtml = (
-  layer,
-  stateName,
-  stateData
-) => {
-  const externalLinkIcon = `<i class="fas fa-external-link-alt" style="margin-left:4px;color:skyblue;"></i>`;
-  const titleHtml = `<div class="popover-title">[${stateName}] ${layer.policyTrackerNumeralColumnName}</div>`;
-  const getNameHtml = (link, name) =>
+const getNameHtml = (link, name, externalLinkIcon) =>
     _.isEmpty(link)
       ? `<span class="policy-name">${trimName(name)}</span>`
       : `<a class="policy-name" href="${link}" target="_blank" rel="noopener noreferrer">${trimName(
           name
         )}${externalLinkIcon}</a>`;
-  const getShortDescriptionHtml = (policyData) => {
+
+const getShortDescriptionHtml = (layer, policyData) => {
     const color = layer.colorMap.get(
       policyData[layer.policyTrackerNumeralColumnName]
     );
@@ -312,49 +315,53 @@ const createGenderInclusiveLanguagePopoverHtml = (
       ]
     }</span></span>`;
   };
+
+const createGenderInclusiveLanguagePopoverHtml = (
+  layer,
+  stateName,
+  stateData
+) => {
+  const externalLinkIcon = `<i class="fas fa-external-link-alt" style="margin-left:4px;color:skyblue;"></i>`;
+  const titleHtml = `<div class="popover-title">${stateName} ${layer.policyTrackerNumeralColumnName}</div>`;
   return `<div class="my-popover">${titleHtml}<ul>${_.map(stateData, (it) => {
-    return `<li>${getNameHtml(it["Link 1"], it.Name)}
-    <div>${getShortDescriptionHtml(it)}</div>
+    return `<li>${getNameHtml(it["Link 1"], it.Name, externalLinkIcon)}
+    <div>${getShortDescriptionHtml(layer,it)}</div>
     <div style="color:gray;margin-bottom:16px">${
       it[layer.policyTrackerTextColumnName]
     }</div></li>`;
   }).join("\n")}</ul></div>`;
 };
-const createPreventionEffortPopoverHtml = (stateName, stateData) => {
-  const layer = layers.preventionEfforts;
-  return `<ul>${_.map(stateData, (it) => {
-    return `<li><span style="color:${(() => {
-      return layer.colorMap.get(it[layer.policyTrackerNumeralColumnName]);
-    })()}">(${layer.policyTrackerNumeralColumnName}: ${
-      layer.policyTrackerNumeralTextMap[
-        it[layer.policyTrackerNumeralColumnName]
-      ]
-    })</span> <a href="${
-      it["Link 1"]
-    }" target="_blank" rel="noopener noreferrer">${trimName(
-      it.Name
-    )}</a><div style="color:red">${
+
+const createPreventionEffortPopoverHtml = (layer, stateName, stateData) => {
+  const externalLinkIcon = `<i class="fas fa-external-link-alt" style="margin-left:4px;color:skyblue;"></i>`;
+  const titleHtml = `<div class="popover-title">${stateName} ${layer.policyTrackerNumeralColumnName}</div>`;
+  return `<div class="my-popover">${titleHtml}<ul>${_.map(stateData, (it) => {
+    return `<li>${getNameHtml(it["Link 1"], it.Name, externalLinkIcon)}
+    <div>${getShortDescriptionHtml(layer,it)}</div>
+    <div style="color:gray;margin-bottom:16px">${
       it[layer.policyTrackerTextColumnName]
     }</div></li>`;
-  }).join("\n")}</ul>`;
+  }).join("\n")}</ul></div>`;
 };
-const createMechanismForEvaluationPopoverHtml = (stateName, stateData) => {
-  const layer = layers.mechanismsForEvaluation;
-  return `<ul>${_.map(stateData, (it) => {
-    return `<li><span style="color:${(() => {
-      return layer.colorMap.get(it[layer.policyTrackerNumeralColumnName]);
-    })()}">(${layer.policyTrackerNumeralColumnName}: ${
-      layer.policyTrackerNumeralTextMap[
-        it[layer.policyTrackerNumeralColumnName]
-      ]
-    })</span> <a href="${
-      it["Link 1"]
-    }" target="_blank" rel="noopener noreferrer">${trimName(
-      it.Name
-    )}</a><div style="color:red">${
+const createMechanismForEvaluationPopoverHtml = (layer, stateName, stateData) => {
+  const externalLinkIcon = `<i class="fas fa-external-link-alt" style="margin-left:4px;color:skyblue;"></i>`;
+  const titleHtml = `<div class="popover-title">${stateName} ${layer.policyTrackerNumeralColumnName}</div>`;
+  return `<div class="my-popover">${titleHtml}<ul>${_.map(stateData, (it) => {
+    return `<li>${getNameHtml(it["Link 1"], it.Name, externalLinkIcon)}
+    <div>${getShortDescriptionHtml(layer,it)}</div>
+    <div style="color:gray;margin-bottom:16px">${
       it[layer.policyTrackerTextColumnName]
     }</div></li>`;
-  }).join("\n")}</ul>`;
+  }).join("\n")}</ul></div>`;
+};
+const createlevelSurvivorInputPopoverHtml = (layer, stateName, stateData) => {
+  const externalLinkIcon = `<i class="fas fa-external-link-alt" style="margin-left:4px;color:skyblue;"></i>`;
+  const titleHtml = `<div class="popover-title">${stateName} ${layer.policyTrackerNumeralColumnName}</div>`;
+  return `<div class="my-popover">${titleHtml}<ul>${_.map(stateData, (it) => {
+    return `<li>${getNameHtml(it["Link 1"], it.Name, externalLinkIcon)}
+    <div style="margin-bottom:16px">${getShortDescriptionHtml(layer,it)}</div>
+    </li>`;
+  }).join("\n")}</ul></div>`;
 };
 const createPopulationPopoverHtml = (stateName, population, population_pct) => {
   const layer = layers.indigenousPopulation;
@@ -370,8 +377,8 @@ map.on("load", async function () {
   // });
 
   const [policyTrackerData, states_geojson, population_data] = await Promise.all([
+    // getJSON("policyTacker_2023.json"),
     getJSON("policyTacker_latest.json"),
-    // getJSON("policyTrackerDec2021.json"),
     // $.ajax({
     //   url: 'https://api.airtable.com/v0/app0nHzjgm8HEKOCQ/Main',
     //   type: 'GET',
@@ -387,13 +394,15 @@ map.on("load", async function () {
   ]);
   
   // const policyTrackerData = policyTrackerResponse.records.map(e => e.fields)
-  console.log(policyTrackerData)
+  // console.log(policyTrackerData)
   const policyTrackerDataMapByState = _.groupBy(policyTrackerData, "State");
-  console.log(policyTrackerDataMapByState)
+  // console.log(policyTrackerDataMapByState)
   const mergedData = _.map(states_geojson.features, (state, index) => {
     const shortName = state.properties.postal;
     const policies = policyTrackerDataMapByState[shortName];
-    
+    // console.log(shortName)
+    // console.log(policies)
+    // console.log(policies.length)
     const pop_vals = population_data.features.filter(o => o.properties.state_code == shortName)
     // debugger
     return {
@@ -412,6 +421,14 @@ map.on("load", async function () {
               _.map(
                 policies,
                 layers.genderInclusiveLanguage.policyTrackerNumeralColumnName
+              )
+            ),
+            [layers.levelSurvivorInput.propertyName]: _.isEmpty(policies)
+          ? -1
+          : getMostFrequentElement(
+              _.map(
+                policies,
+                layers.levelSurvivorInput.policyTrackerNumeralColumnName
               )
             ),
         [layers.preventionEfforts.propertyName]: _.isEmpty(policies)
@@ -574,7 +591,7 @@ map.on("load", async function () {
       new mapboxgl.Popup({ closeButton: false })
         .setLngLat(e.lngLat)
         .setHTML(
-          createGenderInclusiveLanguagePopoverHtml(layer, stateName, stateData)
+          createPreventionEffortPopoverHtml(layer, stateName, stateData)
         )
         .addTo(map);
     });
@@ -590,7 +607,23 @@ map.on("load", async function () {
       new mapboxgl.Popup({ closeButton: false })
         .setLngLat(e.lngLat)
         .setHTML(
-          createGenderInclusiveLanguagePopoverHtml(layer, stateName, stateData)
+          createMechanismForEvaluationPopoverHtml(layer, stateName, stateData)
+        )
+        .addTo(map);
+    });
+  })();
+  (() => {
+    const layer = layers.levelSurvivorInput;
+    map.on("click", layer.layerName, (e) => {
+      const feature = e.features[0];
+      const state = feature.properties.postal;
+      const stateData = policyTrackerDataMapByState[state];
+      const stateName = feature.properties.name;
+
+      new mapboxgl.Popup({ closeButton: false })
+        .setLngLat(e.lngLat)
+        .setHTML(
+          createlevelSurvivorInputPopoverHtml(layer, stateName, stateData)
         )
         .addTo(map);
     });
@@ -620,7 +653,7 @@ map.on("load", async function () {
       const population = feature.properties.population;
       const population_pct = feature.properties.population_pct;
       const stateName = feature.properties.name;
-      console.log(feature)
+      // console.log(feature)
 
       new mapboxgl.Popup({ closeButton: false })
         .setLngLat(e.lngLat)
