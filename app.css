@@ -232,6 +232,7 @@ a[data-toggle="collapse"] {
     padding: 10px;
     /* background: #0393D6; */
 	padding-bottom: 5px;
+    margin-top: 15px;
 }
 
 #sidebar ul.components {
@@ -359,4 +360,13 @@ input[type="radio"]:checked + label > .fa-check-circle-o:before {
 }
 .policy-short-desc {
     font-size: 14px;
+}
+
+.back-btn {
+    padding-top: 10px;
+}
+
+#sidebar-logo {
+    margin: 50px;
+    width: 125px !important
 }
