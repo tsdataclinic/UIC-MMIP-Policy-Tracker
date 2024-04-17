@@ -14,7 +14,8 @@ const getMostFrequentElement = (array) => {
   }
   const ret = _.head(_.maxBy(_.entries(_.countBy(array)), _.last));
   if (!_.isEmpty(ret)) {
-    return _.toNumber(ret);
+    // return _.toNumber(ret);
+    return ret;
   }
   return -1;
 };
@@ -28,7 +29,7 @@ mapboxgl.accessToken = "pk.eyJ1IjoiaW1hZGF2ZWxvcGVyIiwiYSI6ImNrZTdxZ3RiNjBydnYyc
 
 const statusColorMap = new Map();
 statusColorMap.set(1, "green"); // Passed
-statusColorMap.set(0, "red"); // Failed to pass
+statusColorMap.set(0, "red"); // Failed
 statusColorMap.set(2, "blue"); // Pending
 const genderLanguageInclusiveColorMap = new Map();
 genderLanguageInclusiveColorMap.set(2, "green"); // Yes
@@ -39,10 +40,9 @@ preventionEffortsMap.set(2, "green"); // Yes
 preventionEffortsMap.set(1, "red"); // No
 preventionEffortsMap.set(3, "orange"); // TBD or TCRP-specific
 const levelSurvivorInputColorMap =  new Map();
-levelSurvivorInputColorMap.set(0,"red"); //No text
-levelSurvivorInputColorMap.set(1,"red"); //No text
-levelSurvivorInputColorMap.set(2,"orange"); //Somewhat
-levelSurvivorInputColorMap.set(3,"green"); //Yes
+levelSurvivorInputColorMap.set(0,"red"); //No
+levelSurvivorInputColorMap.set(1,"orange"); //Somewhat
+levelSurvivorInputColorMap.set(2,"green"); //Yes
 const mechanismsForEvaluationMap = new Map();
 mechanismsForEvaluationMap.set(2, "green"); // Yes
 mechanismsForEvaluationMap.set(1, "red"); // No
@@ -97,7 +97,7 @@ const layers = {
     buttonId: `status-btn`,
     colorMap: statusColorMap,
     policyTrackerNumeralColumnName: "Status",
-    policyTrackerNumeralTextMap: ["Failed to pass", "Passed", "Pending"],
+    policyTrackerNumeralTextMap: ["Failed", "Passed", "Pending"],
   },
   genderInclusiveLanguage: {
     id: "genderInclusiveLanguage",
@@ -107,7 +107,7 @@ const layers = {
     colorMap: genderLanguageInclusiveColorMap,
     policyTrackerNumeralColumnName: "Gender Inclusive Language?",
     policyTrackerTextColumnName: "Gender Inclusive Language",
-    policyTrackerNumeralTextMap: ["", "No", "Yes", "TBD or TCRP-specific"],
+    policyTrackerNumeralTextMap: ["", "No", "Yes", "TBD or TCRP Specific"],
   },
   preventionEfforts: {
     id: "preventionEfforts",
@@ -117,7 +117,7 @@ const layers = {
     colorMap: preventionEffortsMap,
     policyTrackerNumeralColumnName: "Prevention Efforts?",
     policyTrackerTextColumnName: "Prevention Efforts",
-    policyTrackerNumeralTextMap: ["", "No", "Yes", "TBD or TCRP-specific"],
+    policyTrackerNumeralTextMap: ["", "No", "Yes", "TBD or TCRP Specific"],
   },
   mechanismsForEvaluation: {
     id: "mechanismsForEvaluation",
@@ -127,7 +127,7 @@ const layers = {
     colorMap: mechanismsForEvaluationMap,
     policyTrackerNumeralColumnName: "Mechanisms for Evaluation?",
     policyTrackerTextColumnName: "Mechanisms for Evaluation",
-    policyTrackerNumeralTextMap: ["", "No", "Yes", "TBD or TCRP-specific"],
+    policyTrackerNumeralTextMap: ["", "No", "Yes", "TBD or TCRP Specific"],
   },
   indigenousPopulation : {
     id: "indigenousPopulation",
@@ -154,7 +154,7 @@ const layers = {
     buttonId: `levelSurvivorInput-btn`,
     colorMap: levelSurvivorInputColorMap,
     policyTrackerNumeralColumnName: "Level of Survivor \/ Relative Input",
-    policyTrackerNumeralTextMap: ["N/A", "No", "Somewhat", "Yes"],
+    policyTrackerNumeralTextMap: ["No", "Somewhat", "Yes"],
   }
 };
 
@@ -281,38 +281,32 @@ const createStatusPopoverHtml = (stateName, stateData) => {
     stateData,
     (it) => {
       const statusName =
-        layer.policyTrackerNumeralTextMap[
-          it[layer.policyTrackerNumeralColumnName]
-        ];
+          it[layer.policyTrackerNumeralColumnName];
       const statusColor = layer.colorMap.get(
-        it[layer.policyTrackerNumeralColumnName]
+        layer.policyTrackerNumeralTextMap.indexOf(it[layer.policyTrackerNumeralColumnName])
       );
       return `<li class="margin-bottom:4px;">${getNameHtml(
-        it["Link 1"],
-        it.Name,
+        it,
         externalLinkIcon
       )}${getStatusHtml(statusName, statusColor)}</li>`;
     }
   ).join("\n")}</ul></div>`;
 };
 
-const getNameHtml = (link, name, externalLinkIcon) =>
-    _.isEmpty(link)
-      ? `<span class="policy-name">${trimName(name)}</span>`
-      : `<a class="policy-name" href="${link}" target="_blank" rel="noopener noreferrer">${trimName(
-          name
-        )}${externalLinkIcon}</a>`;
+const getNameHtml = (data, externalLinkIcon) =>
+    _.isEmpty(data["Bill Overview (Link)"])
+      ? `<span class="policy-name">${data["Bill Number"]}: ${trimName(data["Name"])}</span>`
+      : `<a class="policy-name" href="${data["Bill Overview (Link)"]}" target="_blank" rel="noopener noreferrer">${data["Bill Number"]}: ${trimName(data["Name"])
+    }${externalLinkIcon}</a>`;
 
 const getShortDescriptionHtml = (layer, policyData) => {
     const color = layer.colorMap.get(
-      policyData[layer.policyTrackerNumeralColumnName]
+      layer.policyTrackerNumeralTextMap.indexOf(policyData[layer.policyTrackerNumeralColumnName])
     );
     return `<span>${
       layer.policyTrackerNumeralColumnName
     } <span style="color:${color}" class="policy-short-desc">${
-      layer.policyTrackerNumeralTextMap[
         policyData[layer.policyTrackerNumeralColumnName]
-      ]
     }</span></span>`;
   };
 
@@ -324,7 +318,7 @@ const createGenderInclusiveLanguagePopoverHtml = (
   const externalLinkIcon = `<i class="fas fa-external-link-alt" style="margin-left:4px;color:skyblue;"></i>`;
   const titleHtml = `<div class="popover-title">${stateName} ${layer.policyTrackerNumeralColumnName}</div>`;
   return `<div class="my-popover">${titleHtml}<ul>${_.map(stateData, (it) => {
-    return `<li>${getNameHtml(it["Link 1"], it.Name, externalLinkIcon)}
+    return `<li>${getNameHtml(it, externalLinkIcon)}
     <div>${getShortDescriptionHtml(layer,it)}</div>
     <div style="color:gray;margin-bottom:16px">${
       it[layer.policyTrackerTextColumnName]
@@ -336,7 +330,7 @@ const createPreventionEffortPopoverHtml = (layer, stateName, stateData) => {
   const externalLinkIcon = `<i class="fas fa-external-link-alt" style="margin-left:4px;color:skyblue;"></i>`;
   const titleHtml = `<div class="popover-title">${stateName} ${layer.policyTrackerNumeralColumnName}</div>`;
   return `<div class="my-popover">${titleHtml}<ul>${_.map(stateData, (it) => {
-    return `<li>${getNameHtml(it["Link 1"], it.Name, externalLinkIcon)}
+    return `<li>${getNameHtml(it, externalLinkIcon)}
     <div>${getShortDescriptionHtml(layer,it)}</div>
     <div style="color:gray;margin-bottom:16px">${
       it[layer.policyTrackerTextColumnName]
@@ -347,7 +341,7 @@ const createMechanismForEvaluationPopoverHtml = (layer, stateName, stateData) =>
   const externalLinkIcon = `<i class="fas fa-external-link-alt" style="margin-left:4px;color:skyblue;"></i>`;
   const titleHtml = `<div class="popover-title">${stateName} ${layer.policyTrackerNumeralColumnName}</div>`;
   return `<div class="my-popover">${titleHtml}<ul>${_.map(stateData, (it) => {
-    return `<li>${getNameHtml(it["Link 1"], it.Name, externalLinkIcon)}
+    return `<li>${getNameHtml(it, externalLinkIcon)}
     <div>${getShortDescriptionHtml(layer,it)}</div>
     <div style="color:gray;margin-bottom:16px">${
       it[layer.policyTrackerTextColumnName]
@@ -358,17 +352,22 @@ const createlevelSurvivorInputPopoverHtml = (layer, stateName, stateData) => {
   const externalLinkIcon = `<i class="fas fa-external-link-alt" style="margin-left:4px;color:skyblue;"></i>`;
   const titleHtml = `<div class="popover-title">${stateName} ${layer.policyTrackerNumeralColumnName}</div>`;
   return `<div class="my-popover">${titleHtml}<ul>${_.map(stateData, (it) => {
-    return `<li>${getNameHtml(it["Link 1"], it.Name, externalLinkIcon)}
+    return `<li>${getNameHtml(it, externalLinkIcon)}
     <div style="margin-bottom:16px">${getShortDescriptionHtml(layer,it)}</div>
     </li>`;
   }).join("\n")}</ul></div>`;
 };
 const createPopulationPopoverHtml = (stateName, population, population_pct) => {
   const layer = layers.indigenousPopulation;
-  return `<ul> ${stateName} \n
-    <li>Population: ${population}</li> \n
-    <li>Population %: ${population_pct.toFixed(2)} %</li></ul>`;
+  const titleHtml = `<div class="popover-title">${stateName}</div>`;
+  return `<div class="my-popover">${titleHtml}<ul>\n
+    <li>Population: ${numberWithCommas(population)}</li> \n
+    <li>Population %: ${population_pct.toFixed(2)}%</li></ul></div>`;
 };
+
+function numberWithCommas(x) {
+  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
 
 map.on("load", async function () {
   // resetMap = document.getElementById("reset_button");
@@ -378,7 +377,7 @@ map.on("load", async function () {
 
   const [policyTrackerData, states_geojson, population_data] = await Promise.all([
     // getJSON("policyTacker_2023.json"),
-    getJSON("policyTacker_latest.json"),
+    getJSON("policyTracker_latest.json"),
     // $.ajax({
     //   url: 'https://api.airtable.com/v0/app0nHzjgm8HEKOCQ/Main',
     //   type: 'GET',
@@ -394,7 +393,7 @@ map.on("load", async function () {
   ]);
   
   // const policyTrackerData = policyTrackerResponse.records.map(e => e.fields)
-  // console.log(policyTrackerData)
+  console.log(policyTrackerData)
   const policyTrackerDataMapByState = _.groupBy(policyTrackerData, "State");
   // console.log(policyTrackerDataMapByState)
   const mergedData = _.map(states_geojson.features, (state, index) => {
@@ -412,53 +411,55 @@ map.on("load", async function () {
         ...state.properties,
         [layers.status.propertyName]: _.isEmpty(policies)
           ? -1
-          : getMostFrequentElement(
+          : layers.status.policyTrackerNumeralTextMap.indexOf(getMostFrequentElement(
               _.map(policies, layers.status.policyTrackerNumeralColumnName)
-            ),
+            )),
         [layers.genderInclusiveLanguage.propertyName]: _.isEmpty(policies)
           ? -1
-          : getMostFrequentElement(
+          : layers.genderInclusiveLanguage.policyTrackerNumeralTextMap.indexOf(getMostFrequentElement(
               _.map(
                 policies,
                 layers.genderInclusiveLanguage.policyTrackerNumeralColumnName
               )
-            ),
+            )),
             [layers.levelSurvivorInput.propertyName]: _.isEmpty(policies)
           ? -1
-          : getMostFrequentElement(
+          : layers.levelSurvivorInput.policyTrackerNumeralTextMap.indexOf(getMostFrequentElement(
               _.map(
                 policies,
                 layers.levelSurvivorInput.policyTrackerNumeralColumnName
               )
-            ),
+            )),
         [layers.preventionEfforts.propertyName]: _.isEmpty(policies)
           ? -1
-          : getMostFrequentElement(
+          : layers.preventionEfforts.policyTrackerNumeralTextMap.indexOf(getMostFrequentElement(
               _.map(
                 policies,
                 layers.preventionEfforts.policyTrackerNumeralColumnName
               )
-            ),
+            )),
         [layers.mechanismsForEvaluation.propertyName]: _.isEmpty(policies)
           ? -1
-          : getMostFrequentElement(
+          : layers.mechanismsForEvaluation.policyTrackerNumeralTextMap.indexOf(getMostFrequentElement(
               _.map(
                 policies,
                 layers.mechanismsForEvaluation.policyTrackerNumeralColumnName
               )
-            ),
+            )),
         policyCount: policies.length,
         population: pop_vals[0].properties.indigenous_population,
         population_pct: pop_vals[0].properties.indigenous_population_perentage *100,
       },
     };
   });
+  console.log(mergedData)
   _.forEach(layers, (layer) => {
     const stats = _.countBy(
       mergedData,
       (state) => state.properties[layer.propertyName]
     );
     layer.stats = stats;
+    console.log(layer)
   });
 
 
