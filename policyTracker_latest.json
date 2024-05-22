@@ -514,6 +514,43 @@
     "Session":"2021-2022 Regular Session"
   },
   {
+    "State":"NJ",
+    "Name":"Establishes task force on missing women and girls who are Black, Indigenous, or people of color.",
+    "Created By":{
+      "id":"usre7Oy4yngiNzQzC",
+      "email":"austin@urbanindigenouscollective.org",
+      "name":"Austin Serio"
+    },
+    "Bill Number":"SJR112",
+    "Status":"Pending",
+    "Chamber":"Senate",
+    "Chamber Details":"2024-05-09 - S: Introduced in the Senate, Referred to Senate Law and Public Safety Committee",
+    "Bill Overview (Link)":"https:\/\/legiscan.com\/NJ\/bill\/SJR112\/2024",
+    "Bill Text":"https:\/\/legiscan.com\/NJ\/text\/SJR112\/id\/2995628",
+    "Optional Link":"",
+    "Summary":"The legislation establishes a 15-member task force in New Jersey to address the issue of missing women and girls who are Black, Indigenous, or people of color (BIPOC). The task force is charged with developing policy recommendations, training and education materials, strategies for data collection, and a State-wide public awareness campaign. Members will include key state officials and appointees from legislative leaders and the governor. The task force will report its findings and recommendations to the Governor and Legislature within 18 months. The act will take effect immediately and expire 60 days after the task force's report submission.",
+    "UIC Pros":"1. Focused Attention: The creation of a 15-member task force will ensure focused attention on the issue of missing BIPOC women and girls, addressing a critical and often overlooked crisis.\n2. Comprehensive Strategy: By developing policy recommendations, training and education materials, and strategies for data collection, the task force aims to provide a comprehensive approach to tackling the problem.\n3. Community Inclusion: The inclusion of appointed members who are representative of the affected communities ensures that the voices of those impacted are considered in the task force's efforts.\n4. Public Awareness: The legislation mandates a State-wide public awareness campaign, which can help to bring more attention to the issue and potentially prevent future cases.\n5. Legislative Proposals: The requirement for a final report with findings and legislative proposals ensures that the task force's work can translate into concrete policies and actions.\n6. Immediate Action: The act takes effect immediately, signifying urgent action on the issue, with a clear timeline for the task force's objectives and report submission.",
+    "UIC Cons":"1. Lack of Inclusivity: The focus on missing women and girls excludes other genders, which limits the scope and effectiveness of the efforts to address missing and murdered Indigenous persons in general.\n2. Representation: While the task force is supposed to include members from impacted communities, there is no explicit requirement for direct input from MMIP survivors, their relatives, Indigenous politicians, or other specific stakeholders.\n3. No Indigenous Sponsorship: The absence of Indigenous sponsors for the legislation may impact its credibility and acceptance within Indigenous communities, reducing its potential impact.\n4. Short Lifespan: The task force is temporary, and the act will expire 60 days after its final report, which may hinder the implementation of long-term solutions.",
+    "Mechanisms for Evaluation?":"Yes",
+    "Mechanisms for Evaluation":"1. Final Report:  \n   \"The task force shall report its findings and recommendations, including legislative proposals, to the Governor and to the Legislature pursuant to section 2 of P.L.1991, c.164 (C.52:14-19.1), no later than 18 months following the organization of the task force.\"\n\n2. Data Collection:  \n   \"develop strategies and recommendations for the Office of the Attorney General to collect statistics, demographics, surveys, and oral histories; conduct data analysis; and issue guidelines to ensure de-identified data is publicly available;\"\n\n3. Community Consultation:  \n   \"Appointed members shall be representative of the communities impacted by this crisis, including individuals who have been directly impacted.\"",
+    "Gender Inclusive Language?":"No",
+    "Gender Inclusive Language":"The legislation does not use gender-inclusive language as it specifically focuses on missing women and girls who are Black, Indigenous, or people of color (BIPOC). The terms \"women\" and \"girls\" are used throughout the text without expanding the scope to include all genders or using gender-neutral terminology. Therefore, the legislation does not address the broader issue of missing and murdered individuals beyond women and girls.",
+    "Prevention Efforts?":"Yes",
+    "Prevention Efforts":"\"develop training and education materials for BIPOC communities on methods of prevention and protection and social media protocols relating to missing BIPOC women and girls, and disseminate the materials in high-impact communities within the State\"\n\n\"create a State-wide public awareness campaign\"",
+    "Level of Survivor \/ Relative Input":"Somewhat",
+    "Centering of Indigenous Voices":"No.\n\nThe legislation does not explicitly mention input from Missing and Murdered Indigenous Persons (MMIP) survivors, relatives of MMIP survivors, Indigenous politicians, or Indigenous communities. The task force's members are to include appointed representatives who \"shall be representative of the communities impacted by this crisis,\" but there is no explicit requirement for direct input or consultation with those specific groups. Additionally, no Indigenous politicians are listed as sponsors of the legislation.",
+    "Sponsors of the Legislation":"Sen Angela Mcknight (D) - District SD-031",
+    "Indigenous Sponsorship":"",
+    "Last Update":"2024-05-09",
+    "Progression":"Introduced",
+    "Categories":[
+      "Taskforce",
+      "Data Collection",
+      "MMIP Relatives"
+    ],
+    "Session":"2024-2025 Regular Session"
+  },
+  {
     "State":"MT",
     "Name":"Extend the Missing Indigenous Persons Task Force",
     "Created By":{
