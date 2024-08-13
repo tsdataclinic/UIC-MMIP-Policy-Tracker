@@ -1300,7 +1300,7 @@
     "Bill Text":"https:\/\/legiscan.com\/AZ\/text\/HB2139\/id\/2470463",
     "Optional Link":"",
     "Summary":"Arizona enacts a legislation establishing a study committee on missing and murdered indigenous peoples, comprised of appointed members from various entities. The committee is mandated to study and propose measures to address violence against indigenous peoples, submitting reports periodically until September 30, 2026. Members won't receive compensation but may be reimbursed for expenses. Funding is allocated through appropriations to the attorney general.",
-    "UIC Pros":"Representation and Inclusion: Indigenous people are directly represented in the study committee, both in the house and the senate, ensuring that their voices are heard in discussions about issues affecting them.\nHolistic Approach:The comprehensive study and ongoing reviews address various aspects of violence against indigenous peoples, including missing and murdered individuals, allowing for a holistic understanding of the problem.\n",
+    "UIC Pros":"Representation and Inclusion: Indigenous people are directly represented in the study committee, both in the house and the senate, ensuring that their voices are heard in discussions about issues affecting them.\nHolistic Approach:The comprehensive study and ongoing reviews address various aspects of violence against indigenous peoples, including missing and murdered individuals, allowing for a holistic understanding of the problem.",
     "UIC Cons":"Limited Timeline: The timeline for submitting reports and the repeal of the study committee by September 30, 2026, may be considered relatively short. Critics might argue that a more extended period is necessary to conduct a thorough study and implement effective measures.\nFunding Dependency: The use of appropriated monies may be subject to limitations, and critics may argue that greater financial resources are needed for a more robust and sustained effort.\nPotential for Incomplete Representation: While efforts are made to include indigenous representatives, critics may argue that the selection process might not fully capture the diversity of indigenous communities, potentially leaving some voices unheard.\nLack of Compensation: Committee members not being eligible for compensation might be seen as a drawback, as it could limit the ability of individuals, especially those from less privileged backgrounds, to actively participate.\nFocus on Gender Violence: The emphasis on crimes of gender violence may be viewed as limiting, and critics might argue that a broader focus on all forms of violence against indigenous peoples is necessary.\nUncertain Impact of Proposed Legislation: While the committee has the authority to propose legislation, the actual impact of these proposed measures on addressing the issues of missing and murdered indigenous peoples remains uncertain until implemented and evaluated.\nPotential for Insufficient Cultural Understanding: Despite efforts to ensure cultural accuracy, critics might express concerns that the study committee, composed of individuals who may not fully represent all cultural nuances, may inadvertently overlook certain cultural aspects in their recommendations.\nDependency on Law Enforcement: The reliance on law enforcement for data collection may raise concerns among some indigenous communities, given historical and systemic issues with law enforcement relationships in these communities. Critics may argue for more community-driven data collection initiatives.",
     "Mechanisms for Evaluation?":"Yes",
     "Mechanisms for Evaluation":"Yes. A report will be submitted regarding the study committee's activities and recommendations for administrative or legislative action on or before December 1, 2023, December 1, 2024 and December 1, 2025 to the governor, the president of the senate and the speaker of the house of representatives and provide a copy of these reports to the secretary of state.",
@@ -2924,6 +2924,42 @@
     "Last Update":"2024-01-13",
     "Progression":"",
     "Categories":"",
+    "Session":""
+  },
+  {
+    "State":"AZ",
+    "Name":"Establishing the Task Force on Missing and Murdered Indigenous People",
+    "Created By":{
+      "id":"usrZJOoV3itLVEU9n",
+      "email":"trinity@urbanindigenouscollective.org",
+      "name":"Trini Simms"
+    },
+    "Bill Number":"E.O. 2023-08",
+    "Status":"Passed",
+    "Chamber":"Executive Order",
+    "Chamber Details":"Signed and enacted on 7th, March 2023\n",
+    "Bill Overview (Link)":"https:\/\/azgovernor.gov\/office-arizona-governor\/executive-order\/8",
+    "Bill Text":"https:\/\/azgovernor.gov\/sites\/default\/files\/2023.03.07_eo_2023-08.pdf",
+    "Optional Link":"https:\/\/azmirror.com\/2023\/03\/09\/hobbs-signs-executive-order-establishing-missing-and-murdered-indigenous-peoples-task-force\/",
+    "Summary":"Governor Katie Hobbs of Arizona issued an Executive Order creating the Task Force on Missing and Murdered Indigenous People to address the crisis of violence against Indigenous communities, particularly women and girls. The Task Force will collaborate with state, federal, and tribal agencies to collect data, review policies, and recommend culturally appropriate victim services. It will also work on legislative recommendations and sustainable funding strategies. The Task Force is composed of representatives from various government agencies, tribal nations, and the public. A report with recommendations is to be submitted to the Governor annually through 2026.",
+    "UIC Pros":"By involving state, federal, and tribal agencies, as well as various stakeholders, the Task Force ensures a collaborative approach that can leverage diverse expertise and perspectives.\n\nCollecting and analyzing data on violence against Indigenous people helps in identifying trends and areas of need, which can lead to more informed and effective interventions.\n\nEmphasizing culturally appropriate victim services ensures that support is respectful of and tailored to the unique needs of Indigenous communities.",
+    "UIC Cons":"The effectiveness of the Task Force depends on the commitment and coordination of various agencies and stakeholders, which can be challenging to manage.\n\nThe Executive Order does not explicitly mandate direct input from survivors or their families, which could limit the Task Force\u2019s understanding of their needs and experiences.\n\nWhile the Task Force will provide recommendations, actual changes is limited to legislative or administrative action, which could be uncertain or take additional time to achieve.",
+    "Mechanisms for Evaluation?":"Yes",
+    "Mechanisms for Evaluation":"\"The Task Force shall prepare and submit to the Governor a report of their activities with recommendations for administrative or legislative action on or before December 1 each year from 2023-2026.\"\n\n\"Consult with tribal governments on the scope and the nature of the issues associated with missing and murdered Indigenous People and gather data on the prevalence and contextual characteristics of violence against Indigenous People;\"\n\n\"Work with law enforcement and tribal governments to continue to track and collect data on violence against Indigenous People, including data on missing and murdered Indigenous People;\"\n",
+    "Gender Inclusive Language?":"Yes",
+    "Gender Inclusive Language":"Yes, the Executive Order does use gender-inclusive language. The text specifically refers to \"Indigenous People\" and \"Indigenous women and girls\" when discussing the populations most at risk. ",
+    "Prevention Efforts?":"Yes",
+    "Prevention Efforts":"\"Collaborate with state, federal and tribal agencies to address the recommendations of the Missing and Murdered Indigenous Peoples Study Committee, which aim to reduce and end violence against Indigenous People in Arizona;\"\n\"Consult with tribal governments on the scope and the nature of the issues associated with missing and murdered Indigenous People and gather data on the prevalence and contextual characteristics of violence against Indigenous People;\"",
+    "Level of Survivor \/ Relative Input":"No",
+    "Centering of Indigenous Voices":"No. It doesn't directly include input from survivors or victim's relatives. The task force is tasked with recommending measures to ensure access to culturally appropriate victim services, which suggests a focus on addressing the specific needs of survivors and their families, although direct input is not explicitly stated.",
+    "Sponsors of the Legislation":"Gov. Katie Hobbs [D], AG. Kris Mayes [D], Sen. Theresa Hatathlie [D], Lt. Gov. Monica Antone [Gila River Indian Community], Jasmine Blackwater-Nygren [Navajo Nation]",
+    "Indigenous Sponsorship":"Sen. Theresa Hatathlie [D], Lt. Gov. Monica Antone [Gila River Indian Community], Jasmine Blackwater-Nygren [Navajo Nation]",
+    "Last Update":"2023-03-07",
+    "Progression":"Passed",
+    "Categories":[
+      "Taskforce",
+      "Data Collection"
+    ],
     "Session":""
   },
   {
