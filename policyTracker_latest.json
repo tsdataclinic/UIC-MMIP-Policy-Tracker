@@ -1990,6 +1990,41 @@
     "Session":"2023-2024 Regular Session"
   },
   {
+    "State":"CO",
+    "Name":"Missing and Murdered Indigenous Relatives Act",
+    "Created By":{
+      "id":"usrCBTLOKbJJvXPhI",
+      "email":"sb03673n@pace.edu",
+      "name":"Shalini Basu"
+    },
+    "Bill Number":"22-150",
+    "Status":"Passed",
+    "Chamber":"Senate",
+    "Chamber Details":"Chaptered by the Colorado Senate",
+    "Bill Overview (Link)":"https:\/\/leg.colorado.gov\/bills\/sb22-150",
+    "Bill Text":"https:\/\/leg.colorado.gov\/sites\/default\/files\/2022a_150_signed.pdf",
+    "Optional Link":"https:\/\/leg.colorado.gov\/sites\/default\/files\/2022a_150_signed.pdf",
+    "Summary":"This bill was passed to address the crisis of missing and murdered Indigenous people in Colorado. It focuses on improving coordination between law enforcement and Indigenous communities, and establishing systems to handle such cases more effectively.",
+    "UIC Pros":"Benefits of this legislation include the Missing Indigenous Person Alert (MIPA), which functions similarly to Amber Alert, that notifies the public if an indigenous person goes missing. In addition to this, there are mandates on how quickly Law Enforcement must report a missing Indigenous person case to the Colorado Bureau of Investigation. ",
+    "UIC Cons":"The bill sets up frameworks like the Missing Indigenous Person Alert (MIPA) and the Office of Liaison for MMIR cases, but it lacks clear provisions for how these initiatives will be effectively implemented and sustained. Without sufficient operational details, the risk of inconsistent or underfunded execution is high\u200b",
+    "Mechanisms for Evaluation?":"No",
+    "Mechanisms for Evaluation":"There are no explicit mechanisms for evaluation",
+    "Gender Inclusive Language?":"Yes",
+    "Gender Inclusive Language":"\"missing and murdered Indigenous relatives",
+    "Prevention Efforts?":"Yes",
+    "Prevention Efforts":"\u201cThe Office of Liaison for Missing and Murdered Indigenous Relatives shall... coordinate with state and local offices, including tribal liaisons, to develop training and education on spiritual practices pertaining to the remains of an Indigenous person.\u201d",
+    "Level of Survivor \/ Relative Input":"Yes",
+    "Centering of Indigenous Voices":"Yes, the legislation establishes a Community Volunteer Advisory Board that plays a critical role in gathering insights and recommendations regarding issues related to missing and murdered Indigenous relatives.",
+    "Sponsors of the Legislation":"Sen Jessie Danielson (D), Rep. Monica Duran (D), Rep, Leslie Herod (D)",
+    "Indigenous Sponsorship":"No",
+    "Last Update":"2022-06-08",
+    "Progression":"Passed",
+    "Categories":[
+      "MMIP Relatives"
+    ],
+    "Session":""
+  },
+  {
     "State":"HI",
     "Name":"Requesting the Hawaii State Commission on the Status of Women to Convene a Task Force to Study Missing and Murdered Native Hawaiian Women and Girls.",
     "Created By":{
@@ -2119,6 +2154,77 @@
     "Last Update":"2024-01-13",
     "Progression":"",
     "Categories":"",
+    "Session":""
+  },
+  {
+    "State":"NY",
+    "Name":"AN ACT to establish a task force on missing women and girls who are\n black, indigenous and people of color",
+    "Created By":{
+      "id":"usrCBTLOKbJJvXPhI",
+      "email":"sb03673n@pace.edu",
+      "name":"Shalini Basu"
+    },
+    "Bill Number":"S4266A",
+    "Status":"Passed",
+    "Chamber":"Senate",
+    "Chamber Details":"Chaptered by New York State Senate - ",
+    "Bill Overview (Link)":"https:\/\/www.nysenate.gov\/legislation\/bills\/2023\/S4266\/amendment\/A#:~:text=2023%2DS4266%20%2D%20Summary,New%20York%20state%20governmental%20agencies.",
+    "Bill Text":"https:\/\/legislation.nysenate.gov\/pdf\/bills\/2023\/S4266A",
+    "Optional Link":"https:\/\/legislation.nysenate.gov\/pdf\/bills\/2023\/S4266A",
+    "Summary":"This New York State Senate Bill aims to address the issue of missing women and girls from Black, Indigenous, and People of Color (BIPOC) communities. It outlines the creation of a task force to investigate the lack of care and concern for missing BIPOC women and girls.",
+    "UIC Pros":"The bill addresses the underreporting and lack of attention given to missing Black, Indigenous, and People of Color (BIPOC) women and girls. It aims to raise public awareness through a state-wide campaign, community education, and training on prevention, protection, and social media protocols.",
+    "UIC Cons":"The bill primarily establishes a task force to research, collect data, and make recommendations. This means that, in the short term, it may not lead to immediate changes in policy or practice, delaying concrete actions that could directly impact ongoing cases of missing women and girls.",
+    "Mechanisms for Evaluation?":"Yes",
+    "Mechanisms for Evaluation":" \"In carrying out the duties of the task force, such task force shall\n seek public input by holding public hearings in each region of the state and accepting public input in writing.\"",
+    "Gender Inclusive Language?":"No",
+    "Gender Inclusive Language":"N\/A",
+    "Prevention Efforts?":"Yes",
+    "Prevention Efforts":"\"ensure BIPOC communities are educated and trained on the prevention, protection, and protocols relating to missing BIPOC women and girls as it relates to social media;\"",
+    "Level of Survivor \/ Relative Input":"No",
+    "Centering of Indigenous Voices":"N\/A",
+    "Sponsors of the Legislation":"Senator Lea Webb (D, NY)",
+    "Indigenous Sponsorship":"No",
+    "Last Update":"2023-12-21",
+    "Progression":"Passed",
+    "Categories":[
+      "Taskforce"
+    ],
+    "Session":""
+  },
+  {
+    "State":"WA",
+    "Name":"Creating a Missing and Murdered Indigenous Women and People Cold Case Investigations Unit",
+    "Created By":{
+      "id":"usrCBTLOKbJJvXPhI",
+      "email":"sb03673n@pace.edu",
+      "name":"Shalini Basu"
+    },
+    "Bill Number":"HB1177",
+    "Status":"Passed",
+    "Chamber":"House",
+    "Chamber Details":"Chaptered by Washington State House of Representatives",
+    "Bill Overview (Link)":"https:\/\/app.leg.wa.gov\/billsummary?BillNumber=1177&Year=2023&Initiative=False",
+    "Bill Text":"https:\/\/lawfilesext.leg.wa.gov\/biennium\/2023-24\/Pdf\/Bills\/House%20Passed%20Legislature\/1177-S.PL.pdf?q=20241003123804",
+    "Optional Link":"https:\/\/lawfilesext.leg.wa.gov\/biennium\/2023-24\/Pdf\/Bills\/House%20Passed%20Legislature\/1177-S.PL.pdf?q=20241003123804",
+    "Summary":"This bill was passed to address cold cases involving missing and murdered Indigenous individuals. The bill creates a Cold Case Investigations Unit within the Office of the Attorney General (AGO), which will prioritize support for jurisdictions that lack sufficient resources to investigate these cold cases effectively.",
+    "UIC Pros":"The establishment of the Cold Case Investigations Unit within the Office of the Attorney General provides a focused approach to solving cases involving missing and murdered Indigenous people. This dedicated unit aims to streamline resources and expertise specifically for these cases, which have historically received insufficient attention\u200b.",
+    "UIC Cons":"The bill establishes a Cold Case Investigations Unit but does not specify dedicated funding or resources. Also while the bill focuses on cold cases involving missing and murdered Indigenous women and people, it may not address broader issues of violence against Indigenous communities. ",
+    "Mechanisms for Evaluation?":"No",
+    "Mechanisms for Evaluation":"N\/A",
+    "Gender Inclusive Language?":"Yes",
+    "Gender Inclusive Language":"\"missing and murdered Indigenous women and people\"",
+    "Prevention Efforts?":"No",
+    "Prevention Efforts":"N\/A",
+    "Level of Survivor \/ Relative Input":"Yes",
+    "Centering of Indigenous Voices":"This bill does specify there being an advocate or case navigator within the Cold Case Investigations Unit. This advocate is responsible for maintaining regular and confidential communication with the families of missing and murdered Indigenous women and people.",
+    "Sponsors of the Legislation":"Rep. Debra Lekanoff (D)",
+    "Indigenous Sponsorship":"Yes",
+    "Last Update":"2023-01-06",
+    "Progression":"Passed",
+    "Categories":[
+      "Taskforce",
+      "MMIP Relatives"
+    ],
     "Session":""
   },
   {
