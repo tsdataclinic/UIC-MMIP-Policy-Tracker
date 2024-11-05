@@ -1586,6 +1586,42 @@
     "Session":""
   },
   {
+    "State":"UT",
+    "Name":"Murdered and Missing Indigenous Relatives Amendments",
+    "Created By":{
+      "id":"usrCBTLOKbJJvXPhI",
+      "email":"sb03673n@pace.edu",
+      "name":"Shalini Basu"
+    },
+    "Bill Number":"HB0480",
+    "Status":"Failed",
+    "Chamber":"House",
+    "Chamber Details":"2024 General Session - House",
+    "Bill Overview (Link)":"https:\/\/legiscan.com\/UT\/text\/HB0480\/2024",
+    "Bill Text":"https:\/\/legiscan.com\/UT\/text\/HB0480\/2024",
+    "Optional Link":"https:\/\/legiscan.com\/UT\/sponsors\/HB0480\/2024",
+    "Summary":"Utah House Bill HB0480, titled \"Murdered and Missing Indigenous Relatives Amendments,\" sought to address the issues surrounding missing and murdered Indigenous individuals. The bill aimed to enhance existing protocols and resources for law enforcement, create awareness, and establish supportive measures for affected families. Unfortunately, the bill failed to progress, as it was filed in the House for bills not passed on March 1, 2024.",
+    "UIC Pros":"Enhances protocols and resources for law enforcement in cases of missing and murdered Indigenous individuals and aims to increase awareness and promote supportive measures for affected families.",
+    "UIC Cons":"The bill ultimately failed to progress, which limits its potential impact and benefits.",
+    "Mechanisms for Evaluation?":"No",
+    "Mechanisms for Evaluation":"N\/A",
+    "Gender Inclusive Language?":"Yes",
+    "Gender Inclusive Language":"\"murdered and missing Indigenous relatives\"",
+    "Prevention Efforts?":"Yes",
+    "Prevention Efforts":"N\/A",
+    "Level of Survivor \/ Relative Input":"Yes",
+    "Centering of Indigenous Voices":"Yes, this legislation mandates that state agencies engage with Indigenous nations. ",
+    "Sponsors of the Legislation":"Representative Angela Romero [D], Senator David Hinkins [R]",
+    "Indigenous Sponsorship":"No",
+    "Last Update":"2024-03-01",
+    "Categories":[
+      "Taskforce",
+      "Tribal Law Enforcement"
+    ],
+    "Progression":"Failed Limited support based on state",
+    "Session":""
+  },
+  {
     "State":"DE",
     "Name":"No Results",
     "Created By":{
@@ -2630,6 +2666,41 @@
       "Data Collection"
     ],
     "Progression":"",
+    "Session":""
+  },
+  {
+    "State":"MN",
+    "Name":"Missing and murdered Indigenous relatives information reward fund establishment and appropriation",
+    "Created By":{
+      "id":"usrCBTLOKbJJvXPhI",
+      "email":"sb03673n@pace.edu",
+      "name":"Shalini Basu"
+    },
+    "Bill Number":"SF36",
+    "Status":"Pending",
+    "Chamber":"Senate",
+    "Chamber Details":"State of Minnesota Senate",
+    "Bill Overview (Link)":"https:\/\/legiscan.com\/MN\/text\/SF36\/id\/2752813\/Minnesota-2023-SF36-Engrossed.pdf",
+    "Bill Text":"https:\/\/legiscan.com\/MN\/text\/SF36\/id\/2752813\/Minnesota-2023-SF36-Engrossed.pdf",
+    "Optional Link":"https:\/\/legiscan.com\/MN\/text\/SF36\/id\/2752813\/Minnesota-2023-SF36-Engrossed.pdf",
+    "Summary":"\nMinnesota Senate File 36 (SF36) is a proposed bill aimed at addressing the crisis of missing and murdered Indigenous people by establishing a dedicated reward fund. The bill would allocate funds to provide rewards for information that could help resolve cases involving missing and murdered Indigenous relatives. This fund is designed to incentivize the public to provide valuable leads in cases that often lack sufficient resources or attention.",
+    "UIC Pros":"The reward fund could encourage public participation by providing financial incentives for tips or leads, potentially leading to quicker resolutions and increased case clearance rates for MMIP cases.",
+    "UIC Cons":" Implementing the bill would require consistent funding, and budget constraints might limit its effectiveness if resources become scarce or are diverted from other public services",
+    "Mechanisms for Evaluation?":"No",
+    "Mechanisms for Evaluation":"N\/A",
+    "Gender Inclusive Language?":"No",
+    "Gender Inclusive Language":"N\/A",
+    "Prevention Efforts?":"No",
+    "Prevention Efforts":"N\/A",
+    "Level of Survivor \/ Relative Input":"Yes",
+    "Centering of Indigenous Voices":"Yes, the advisory group of this legislation is required to consist of members of Indigenous communities. ",
+    "Sponsors of the Legislation":"Senator Mary Kunesh-Podein [D], Senator Ronald Latz [D], Senator Kari Dziedzic [D], Senator Clare Oumou Verbeten [D]",
+    "Indigenous Sponsorship":"Yes",
+    "Last Update":"2023-03-20",
+    "Categories":[
+      "Taskforce"
+    ],
+    "Progression":"Engrossed",
     "Session":""
   },
   {
