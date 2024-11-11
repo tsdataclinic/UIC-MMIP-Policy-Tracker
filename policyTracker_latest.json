@@ -462,6 +462,39 @@
     "Session":"2021 Regular Session"
   },
   {
+    "State":"KS",
+    "Name":"",
+    "Created By":{
+      "id":"usrZJOoV3itLVEU9n",
+      "email":"trinity@urbanindigenouscollective.org",
+      "name":"Trini Simms"
+    },
+    "Bill Number":"",
+    "Status":"",
+    "Chamber":"",
+    "Chamber Details":"",
+    "Bill Overview (Link)":"",
+    "Bill Text":"",
+    "Optional Link":"",
+    "Summary":"",
+    "UIC Pros":"",
+    "UIC Cons":"",
+    "Mechanisms for Evaluation?":"",
+    "Mechanisms for Evaluation":"",
+    "Gender Inclusive Language?":"",
+    "Gender Inclusive Language":"",
+    "Prevention Efforts?":"",
+    "Prevention Efforts":"",
+    "Level of Survivor \/ Relative Input":"",
+    "Centering of Indigenous Voices":"",
+    "Sponsors of the Legislation":"",
+    "Indigenous Sponsorship":"",
+    "Last Update":"",
+    "Categories":"",
+    "Progression":"",
+    "Session":""
+  },
+  {
     "State":"MT",
     "Name":"The Missing Persons Response Team Training Grant Program",
     "Created By":{
