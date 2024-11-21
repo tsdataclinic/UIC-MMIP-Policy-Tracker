@@ -1,4 +1,4 @@
-pyairtable
+pyairtable==2.3.6
 pandas
 numpy
 pydantic>=2.0
