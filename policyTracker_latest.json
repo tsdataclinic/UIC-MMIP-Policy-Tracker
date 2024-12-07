@@ -31,7 +31,8 @@
     "Categories":"",
     "Centering of Indigenous Voices?":"",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"OK",
@@ -68,7 +69,8 @@
     ],
     "Centering of Indigenous Voices?":"No",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"WA",
@@ -104,7 +106,8 @@
     ],
     "Centering of Indigenous Voices?":"No",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"MS",
@@ -138,7 +141,8 @@
     "Categories":"",
     "Centering of Indigenous Voices?":"",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"CA",
@@ -175,7 +179,8 @@
     ],
     "Centering of Indigenous Voices?":"No",
     "Progression":"Passed",
-    "Session":"2021-2022 Regular Session"
+    "Session":"2021-2022 Regular Session",
+    "Level of Survivor \/ Relative Input":"The California Senate Concurrent Resolution 107 (SCR107) primarily concerns the recognition of Missing and Murdered Indigenous People (MMIP) Awareness Month. It acknowledges the need to raise awareness about the issue, although the specific bill itself does not mention direct input from MMIP survivors within the text."
   },
   {
     "State":"OK",
@@ -213,7 +218,8 @@
     ],
     "Centering of Indigenous Voices?":"No",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"AZ",
@@ -251,7 +257,8 @@
     ],
     "Centering of Indigenous Voices?":"Somewhat",
     "Progression":"Engrossed",
-    "Session":"2022 Regular Session"
+    "Session":"2022 Regular Session",
+    "Level of Survivor \/ Relative Input":"Arizona SB1215 from the 2022 legislative session primarily focuses on the establishment of a \"Study Committee on Missing and Murdered Indigenous Peoples\" to review policies and recommend improvements in addressing this crisis. While the bill is extensive in describing procedural and structural aspects of the committee, it does not explicitly include language or contributions from MMIP survivors or their families in its legislative text but does call for \"(b) One victim advocate\" to be represented in the study committee"
   },
   {
     "State":"HI",
@@ -287,7 +294,8 @@
     ],
     "Centering of Indigenous Voices?":"No",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"NJ",
@@ -323,7 +331,8 @@
     ],
     "Centering of Indigenous Voices?":"No",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"OK",
@@ -361,7 +370,8 @@
     ],
     "Centering of Indigenous Voices?":"No",
     "Progression":"Introduced",
-    "Session":"2022 Regular Session"
+    "Session":"2022 Regular Session",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"WA",
@@ -398,7 +408,8 @@
     ],
     "Centering of Indigenous Voices?":"No",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"WA",
@@ -435,7 +446,8 @@
     ],
     "Centering of Indigenous Voices?":"Yes",
     "Progression":"Passed",
-    "Session":"2021-2022 Regular Session"
+    "Session":"2021-2022 Regular Session",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"MT",
@@ -472,7 +484,8 @@
     ],
     "Centering of Indigenous Voices?":"Yes",
     "Progression":"Failed Limited support based on state",
-    "Session":"2021 Regular Session"
+    "Session":"2021 Regular Session",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"KS",
@@ -506,7 +519,8 @@
     "Categories":"",
     "Centering of Indigenous Voices?":"",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"MT",
@@ -542,7 +556,8 @@
     ],
     "Centering of Indigenous Voices?":"Somewhat",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"CA",
@@ -578,7 +593,8 @@
     ],
     "Centering of Indigenous Voices?":"No",
     "Progression":"Passed",
-    "Session":"2021-2022 Regular Session"
+    "Session":"2021-2022 Regular Session",
+    "Level of Survivor \/ Relative Input":"This resolution does not mention direct MMIP survivor input but reflects the gravity of the issue by sharing key statistics and research findings. The resolution serves as an important tool for raising awareness, particularly given California's large Indigenous population."
   },
   {
     "State":"NJ",
@@ -616,7 +632,8 @@
     ],
     "Centering of Indigenous Voices?":"No",
     "Progression":"Introduced",
-    "Session":"2024-2025 Regular Session"
+    "Session":"2024-2025 Regular Session",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"MT",
@@ -654,7 +671,8 @@
     ],
     "Centering of Indigenous Voices?":"Yes",
     "Progression":"Passed",
-    "Session":"2021 Regular Session"
+    "Session":"2021 Regular Session",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"LA",
@@ -690,7 +708,8 @@
     ],
     "Centering of Indigenous Voices?":"Somewhat",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"WI",
@@ -726,7 +745,8 @@
     ],
     "Centering of Indigenous Voices?":"No",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"WI",
@@ -760,7 +780,8 @@
     "Categories":"",
     "Centering of Indigenous Voices?":"No",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"WV",
@@ -794,7 +815,8 @@
     "Categories":"",
     "Centering of Indigenous Voices?":"",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"National",
@@ -831,7 +853,8 @@
     ],
     "Centering of Indigenous Voices?":"No",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"CT",
@@ -865,7 +888,8 @@
     "Categories":"",
     "Centering of Indigenous Voices?":"",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"IA",
@@ -899,7 +923,8 @@
     "Categories":"",
     "Centering of Indigenous Voices?":"",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"MT",
@@ -936,7 +961,8 @@
     ],
     "Centering of Indigenous Voices?":"No",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"OK",
@@ -974,7 +1000,8 @@
     ],
     "Centering of Indigenous Voices?":"No",
     "Progression":"Introduced",
-    "Session":"2021 Regular Session"
+    "Session":"2021 Regular Session",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"MT",
@@ -1011,7 +1038,8 @@
     ],
     "Centering of Indigenous Voices?":"Somewhat",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"AK",
@@ -1037,7 +1065,7 @@
     "Gender Inclusive Language":"No",
     "Prevention Efforts?":"No",
     "Prevention Efforts":"No",
-    "Level of Survivor \/ Relative Input?":"Somewhat",
+    "Level of Survivor \/ Relative Input?":"No",
     "Centering of Indigenous Voices":"Yes\/No. The bill aims to amplify Indigenous women's voices, not gender inclusive of twospirits, or indigenous people, men are just as vulnerable as women, with the creation of a liaison position but to a limited voice of just women,  is unclear regarding the centering of voices of local Indigenous communities.",
     "Sponsors of the Legislation":"Tiffany Zulkosky (D)*, Grier Hopkins (D), Jonathan Kreiss-Tomkins (D), Daniel Ortiz (I), Liz Snyder (D), Ivy Spohnholz (D), Geran Tarr (D), Neal Foster (D)",
     "Indigenous Sponsorship":"Tiffany Zulkosky (D), Neal Foster (D)",
@@ -1048,7 +1076,8 @@
     ],
     "Centering of Indigenous Voices?":"Somewhat",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":"The legislation in question, HB38 (2021-2022), relates to establishing new protocols and measures for addressing cases of missing and murdered Indigenous persons (MMIP). However, after reviewing the text and descriptions available through legislative sources, there is no explicit indication that input from MMIP survivors or their families was incorporated into the bill's language or development process."
   },
   {
     "State":"VT",
@@ -1082,7 +1111,8 @@
     "Categories":"",
     "Centering of Indigenous Voices?":"",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"RI",
@@ -1116,7 +1146,8 @@
     "Categories":"",
     "Centering of Indigenous Voices?":"",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"IL",
@@ -1153,7 +1184,8 @@
     ],
     "Centering of Indigenous Voices?":"No",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"NE",
@@ -1190,7 +1222,8 @@
     ],
     "Centering of Indigenous Voices?":"Yes",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"OR",
@@ -1228,7 +1261,8 @@
     ],
     "Centering of Indigenous Voices?":"Yes",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"National",
@@ -1265,7 +1299,8 @@
     ],
     "Centering of Indigenous Voices?":"No",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"AK",
@@ -1291,7 +1326,7 @@
     "Gender Inclusive Language":"No",
     "Prevention Efforts?":"No",
     "Prevention Efforts":"Yes\/No. \u201cWe hold steadfast to our efforts to keep and ensure strong partnerships with all of our tribal, local, state and federal law enforcement partners as well as look at what preventative efforts, survivor services, and educational programs can be implemented in communities across Alaska so that we can reduce the violence that negatively impacts all Alaskans, which includes a disproportionately high rate of indigenous people subjected to violence.\u201d",
-    "Level of Survivor \/ Relative Input?":"Somewhat",
+    "Level of Survivor \/ Relative Input?":"No",
     "Centering of Indigenous Voices":"These TCRP's will be tailored to the needs of local indigenous communities. \"Earlier this year three Pilot Projects volunteered to create model guides for how a tribal community will respond to a report of new missing or murdered person case. The Pilot Project sites include the tribal communities of Curyung Native Council (Dillingham), Native Village of Unalakleet and Koyukuk Native Village. When finished the Tribal Community Response Plans (TCRP) will be shared with tribal communities across the state who can then tailor it to the specific needs, resources and culture of their communities.\"",
     "Sponsors of the Legislation":"\"\u201cThe Alaska MMIP working group is a multi- disciplinary team led by the United States Attorney\u2019 s Office MMIP Coordinator, Ingrid Cumberlidge, and comprised of law enforcement representatives from Alaska State Troopers and VPSOs, FBI, Anchorage Police Department, U.S. Marshals, Fairbanks Police Department, BIA Cold Case Office, Kotzebue Police Department, Nome Police Department, Central Council of Tlingit and Haida Indian Tribes of Alaska VPSO supervisors, and Tanana Chiefs Conference VPSO supervisors; legal and judicial representatives from the Alaska Department of Law, U.S. Coast Guard, Kluti-Kaah Tribal Court (former Utquagvik Tribal Court); Tanana Chiefs Conference; tribal representatives from Ahtna Region, Orutsararmiut Native Council, Sun\u2019aq Tribe of Kodiak; victim service providers; and advocates from Victims for Justice, and the Alaska Native Women\u2019s Resource Center.\u201d",
     "Indigenous Sponsorship":"Ingrid Cumberlidge, the Kotzebue Police Department, Nome Police Department, Central Council of Tlingit and Haida Indian Tribes of Alaska VPSO supervisors, and Tanana Chiefs Conference VPSO supervisors; legal and judicial representatives from the Alaska Department of Law, U.S. Coast Guard, Kluti-Kaah Tribal Court (former Utquagvik Tribal Court); Tanana Chiefs Conference; tribal representatives from Ahtna Region, Orutsararmiut Native Council, Sun\u2019aq Tribe of Kodiak; victim service providers; and advocates from Victims for Justice, and the Alaska Native Women\u2019s Resource Center.",
@@ -1299,7 +1334,8 @@
     "Categories":"",
     "Centering of Indigenous Voices?":"Yes",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":"Direct input from MMIP survivors or their families isn't explicitly highlighted in the documentation of these projects. Instead, these initiatives focus on  Tribal Community Response Plans (TCRPs) "
   },
   {
     "State":"OR",
@@ -1336,7 +1372,8 @@
     ],
     "Centering of Indigenous Voices?":"Somewhat",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"OH",
@@ -1370,7 +1407,8 @@
     "Categories":"",
     "Centering of Indigenous Voices?":"",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"NV",
@@ -1404,7 +1442,8 @@
     "Categories":"",
     "Centering of Indigenous Voices?":"",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"AZ",
@@ -1430,7 +1469,7 @@
     "Gender Inclusive Language":"Yes; Uses the gender neutral language of \"Missing and Murdered Indigenous Peoples\"",
     "Prevention Efforts?":"Yes",
     "Prevention Efforts":"Yes,  Conduct a comprehensive study to determine how this state can reduce and end violence against indigenous peoples in this state.",
-    "Level of Survivor \/ Relative Input?":"Yes",
+    "Level of Survivor \/ Relative Input?":"Somewhat",
     "Centering of Indigenous Voices":"Requires participation by three members of the house of representatives and senate who are of indigenous descent or who attend meetings and actively work on issues relating to indigenous peoples, one member who works with the Phoenix or Tucson Indian center, one member who works in the Phoenix area Indian health services, one representative of a tribal government, one attorney general or judge from a tribal jurisdiction, one social worker who works with a tribal, statewide or local organization that provides services to indigenous peoples.",
     "Sponsors of the Legislation":"Rep. Jennifer Jermaine [D], Rep. Walter Blackman [R], Rep. Jasmine Blackwater-Nygren [D], Rep. Kelli Butler [D]\nRep. David Cook [R], Rep. Andrea Dalessandro [D], Rep. Domingo Degrazia [D], Sen. Denise Epstein [D]\nRep. Sarah Liguori [D], Rep. Jennifer Longdon [D], Rep. Jennifer Pawlik [D], Rep. Pamela Hannley [D], Rep. Marcelino Qui\u00f1onez [D], Rep. Myron Tsosie [D], Sen. Sean Bowie [D], Sen. Rosanna Gabaldon [D], Sen. Sally Gonzales [D], Sen. Victoria Steele [D]        ",
     "Indigenous Sponsorship":"Rep. Jennifer Jermaine [D-AZ], Rep. Jasmine Blackwater-Nygren [D-AZ], \nRep. Domingo DeGrazia [D-AZ], Rep. Myron Tsosie [D-AZ].\n",
@@ -1444,7 +1483,8 @@
     ],
     "Centering of Indigenous Voices?":"Yes",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":"Establishment of a \"Study Committee on Missing and Murdered Indigenous Peoples\" to review policies and recommend improvements in addressing this crisis. While the bill is extensive in describing procedural and structural aspects of the committee, it does not explicitly include language or contributions from MMIP survivors or their families in its legislative text but does call for \"(b) One victim advocate\" to be represented in the study committee"
   },
   {
     "State":"PA",
@@ -1478,7 +1518,8 @@
     "Categories":"",
     "Centering of Indigenous Voices?":"",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"ND",
@@ -1514,7 +1555,8 @@
     ],
     "Centering of Indigenous Voices?":"Yes",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"HI",
@@ -1552,7 +1594,8 @@
     ],
     "Centering of Indigenous Voices?":"No",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"NC",
@@ -1588,7 +1631,8 @@
     ],
     "Centering of Indigenous Voices?":"No",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"AK",
@@ -1614,7 +1658,7 @@
     "Gender Inclusive Language":"Yes; Defines MMIP as \"Missing and Murdered Indigenous Women, Girls, and Two-Spirit Persons\"",
     "Prevention Efforts?":"TBD or TCRP Specific",
     "Prevention Efforts":"Yes, this as this executive order seeks to implement TCRPs, which are inclusive of prevention efforts",
-    "Level of Survivor \/ Relative Input?":"Yes",
+    "Level of Survivor \/ Relative Input?":"No",
     "Centering of Indigenous Voices":"Requires the appointment of members who represent federally recognized tribes.",
     "Sponsors of the Legislation":"Sen. Donald \"Donny\" Olson [D-AK] - I\u00f1upiat",
     "Indigenous Sponsorship":"Sen. Donald \"Donny\" Olson [D-AK] - I\u00f1upiat",
@@ -1624,7 +1668,8 @@
     ],
     "Centering of Indigenous Voices?":"Yes",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":"Alaska's SB 211 outlines several initiatives to address the issue of Missing and Murdered Indigenous Persons (MMIP), including provisions for liaison roles, standardized investigation methods, and a dedicated commission for MMIP cases. However, there is no explicit evidence within the text indicating direct input from MMIP survivors or their families. While the commission's structure allows for tribal and community input, survivor-specific perspectives or direct testimony from MMIP survivors do not appear in the text."
   },
   {
     "State":"MT",
@@ -1662,7 +1707,8 @@
     ],
     "Centering of Indigenous Voices?":"Yes",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"UT",
@@ -1699,7 +1745,8 @@
     ],
     "Centering of Indigenous Voices?":"Yes",
     "Progression":"Failed Limited support based on state",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"DE",
@@ -1733,7 +1780,8 @@
     "Categories":"",
     "Centering of Indigenous Voices?":"",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"MD",
@@ -1767,7 +1815,8 @@
     "Categories":"",
     "Centering of Indigenous Voices?":"",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"TN",
@@ -1801,7 +1850,8 @@
     "Categories":"",
     "Centering of Indigenous Voices?":"",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"ME",
@@ -1837,7 +1887,8 @@
     ],
     "Centering of Indigenous Voices?":"No",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"MI",
@@ -1875,7 +1926,8 @@
     ],
     "Centering of Indigenous Voices?":"Yes",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"KY",
@@ -1909,7 +1961,8 @@
     "Categories":"",
     "Centering of Indigenous Voices?":"",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"KS",
@@ -1945,7 +1998,8 @@
     ],
     "Centering of Indigenous Voices?":"Somewhat",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"WY",
@@ -1979,7 +2033,8 @@
     "Categories":"",
     "Centering of Indigenous Voices?":"",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"NM",
@@ -2016,7 +2071,8 @@
     ],
     "Centering of Indigenous Voices?":"Yes",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"National",
@@ -2053,7 +2109,8 @@
     ],
     "Centering of Indigenous Voices?":"No",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"AK",
@@ -2079,7 +2136,7 @@
     "Gender Inclusive Language":"Yes. The legislation includes references to Missing and Murdered Indigenous Women, Girls, and Two-Spirit Persons, indicating a broader focus beyond just women. Additionally, the term \"two-spirit\" is used to acknowledge individuals who do not fit within traditional gender categories. These inclusive terms demonstrate a recognition of the diversity and complexity within Indigenous communities.",
     "Prevention Efforts?":"Yes",
     "Prevention Efforts":"The quoted text from the legislation identifies prevention efforts related to Missing and Murdered Indigenous Persons:\n\n\"Sec. 44.41.140. Missing and Murdered Indigenous Women, Girls, and Two-Spirit Persons Review Commission. (a) The Missing and Murdered Indigenous Women, Girls, and Two-Spirit Persons Review Commission is established in the Department of Public Safety... (3) make policy, practice, and service recommendations to encourage collaboration and reduce cases involving indigenous women, girls, and two-spirit persons.\"",
-    "Level of Survivor \/ Relative Input?":"Somewhat",
+    "Level of Survivor \/ Relative Input?":"No",
     "Centering of Indigenous Voices":"\n\nThe legislation specifically establishes the Missing and Murdered Indigenous Women, Girls, and Two-Spirit Persons Review Commission, which consists of members with experience in domestic violence, law enforcement, and federally recognized tribes. This shows a significant level of input from MMIP survivors, relatives, and Indigenous communities in the development of the legislation.",
     "Sponsors of the Legislation":"Sen Donald Olson (D) - District SD-T",
     "Indigenous Sponsorship":"Sen. Donald \"Donny\" Olson [D-AK] - I\u00f1upiat",
@@ -2092,7 +2149,8 @@
     ],
     "Centering of Indigenous Voices?":"Yes",
     "Progression":"Introduced",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":"There is no explicit mention of survivor input or contributions from families of MMIP victims within the legislative language. The bill's framework involves collaboration between law enforcement, tribal representatives, and other stakeholders, but survivor involvement isn't highlighted."
   },
   {
     "State":"GA",
@@ -2126,7 +2184,8 @@
     "Categories":"",
     "Centering of Indigenous Voices?":"",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"CA",
@@ -2164,7 +2223,8 @@
     ],
     "Centering of Indigenous Voices?":"No",
     "Progression":"Passed",
-    "Session":"2021-2022 Regular Session"
+    "Session":"2021-2022 Regular Session",
+    "Level of Survivor \/ Relative Input":"The bill ACR 136 in California, which designates May as Missing and Murdered Indigenous People Awareness Month, does not directly include specific survivor input in the text. It mainly highlights statistical data about the issue, such as the disproportionately high rates of violence against Indigenous women, especially in urban areas."
   },
   {
     "State":"NY",
@@ -2201,7 +2261,8 @@
     ],
     "Centering of Indigenous Voices?":"Yes",
     "Progression":"Introduced",
-    "Session":"2023-2024 Regular Session"
+    "Session":"2023-2024 Regular Session",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"CO",
@@ -2238,7 +2299,8 @@
     ],
     "Centering of Indigenous Voices?":"Yes",
     "Progression":"Passed",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"HI",
@@ -2275,7 +2337,8 @@
     ],
     "Centering of Indigenous Voices?":"No",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"DC",
@@ -2309,7 +2372,8 @@
     "Categories":"",
     "Centering of Indigenous Voices?":"",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"NM",
@@ -2345,7 +2409,8 @@
     ],
     "Centering of Indigenous Voices?":"No",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"OR",
@@ -2379,7 +2444,8 @@
     "Categories":"",
     "Centering of Indigenous Voices?":"Yes",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"NY",
@@ -2415,7 +2481,8 @@
     ],
     "Centering of Indigenous Voices?":"No",
     "Progression":"Passed",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"WA",
@@ -2452,7 +2519,8 @@
     ],
     "Centering of Indigenous Voices?":"Somewhat",
     "Progression":"Passed",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"NM",
@@ -2489,7 +2557,8 @@
     ],
     "Centering of Indigenous Voices?":"Yes",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"SC",
@@ -2523,7 +2592,8 @@
     "Categories":"",
     "Centering of Indigenous Voices?":"",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"National",
@@ -2561,7 +2631,8 @@
     ],
     "Centering of Indigenous Voices?":"Yes",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"VA",
@@ -2595,7 +2666,8 @@
     "Categories":"",
     "Centering of Indigenous Voices?":"",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"ND",
@@ -2634,7 +2706,8 @@
     ],
     "Centering of Indigenous Voices?":"Yes",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"TX",
@@ -2668,7 +2741,8 @@
     "Categories":"",
     "Centering of Indigenous Voices?":"",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"AL",
@@ -2702,7 +2776,8 @@
     "Categories":"",
     "Centering of Indigenous Voices?":"",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"MN",
@@ -2740,7 +2815,8 @@
     ],
     "Centering of Indigenous Voices?":"Yes",
     "Progression":"Introduced",
-    "Session":"2021-2022 Regular Session"
+    "Session":"2021-2022 Regular Session",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"AZ",
@@ -2766,7 +2842,7 @@
     "Gender Inclusive Language":"Yes; Uses the gender neutral language of \"Missing and Murdered Indigenous Peoples\"",
     "Prevention Efforts?":"Yes",
     "Prevention Efforts":"Yes; Requires participation by three members of the house of representatives and senate who are of indigenous descent or who attend meetings and actively work on issues relating to indigenous peoples, one member who works with the Phoenix or Tucson Indian center, one member who works in the Phoenix area Indian health services, one representative of a tribal government, one attorney general or judge from a tribal jurisdiction, one social worker who works with a tribal, statewide or local organization that provides services to indigenous peoples.",
-    "Level of Survivor \/ Relative Input?":"Yes",
+    "Level of Survivor \/ Relative Input?":"Somewhat",
     "Centering of Indigenous Voices":"Requires participation by three members of the house of representatives and senate who are of indigenous descent or who attend meetings and actively work on issues relating to indigenous peoples, one member who works with the Phoenix or Tucson Indian center, one member who works in the Phoenix area Indian health services, one representative of a tribal government, one attorney general or judge from a tribal jurisdiction, one social worker who works with a tribal, statewide or local organization that provides services to indigenous peoples.",
     "Sponsors of the Legislation":"Representatives Jermaine: Andrade, Blackman, Bolding, Bowers, Butler, Ch\u00e1vez, DeGrazia, Epstein, Espinoza, Friese, Hernandez A, Hernandez D, Lieberman, Longdon, Meza, Pawlik, Pratt, Salman, Schwiebert, Shah, Sierra, Stahl Hamilton, Teller, Ter\u00e1n, Tsosie, Udall, Senators Alston, Bowie, Engel, Gabaldon, Gonzales, Marsh, Mendez, Peshlakai, Rios, Shope, Steele\n\n",
     "Indigenous Sponsorship":"Rep. Arlando Teller [D],\nRep. Myron Tsosie [D],\nSen. Jamescita Peshlakai [D]",
@@ -2776,7 +2852,8 @@
     ],
     "Centering of Indigenous Voices?":"Yes",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":"\"A. The study committee on missing and murdered indigenous women and girls peoples is established consisting of the following members...(b) One victim advocate.\""
   },
   {
     "State":"MN",
@@ -2812,7 +2889,8 @@
     ],
     "Centering of Indigenous Voices?":"Yes",
     "Progression":"Engrossed",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"SD",
@@ -2848,7 +2926,8 @@
     ],
     "Centering of Indigenous Voices?":"No",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"NY",
@@ -2886,7 +2965,8 @@
     ],
     "Centering of Indigenous Voices?":"Yes",
     "Progression":"Passed",
-    "Session":"2023-2024 Regular Session"
+    "Session":"2023-2024 Regular Session",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"National",
@@ -2923,7 +3003,8 @@
     ],
     "Centering of Indigenous Voices?":"No",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"MA",
@@ -2957,7 +3038,8 @@
     "Categories":"",
     "Centering of Indigenous Voices?":"",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"MN",
@@ -2996,7 +3078,8 @@
     ],
     "Centering of Indigenous Voices?":"Yes",
     "Progression":"Introduced",
-    "Session":"2021-2022 Regular Session"
+    "Session":"2021-2022 Regular Session",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"FL",
@@ -3030,7 +3113,8 @@
     "Categories":"",
     "Centering of Indigenous Voices?":"",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"WI",
@@ -3066,7 +3150,8 @@
     ],
     "Centering of Indigenous Voices?":"No",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"IN",
@@ -3100,7 +3185,8 @@
     "Categories":"",
     "Centering of Indigenous Voices?":"",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"WA",
@@ -3137,7 +3223,8 @@
     ],
     "Centering of Indigenous Voices?":"Yes",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"MT",
@@ -3171,7 +3258,8 @@
     "Categories":"",
     "Centering of Indigenous Voices?":"Yes",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"UT",
@@ -3208,7 +3296,8 @@
     ],
     "Centering of Indigenous Voices?":"No",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"ID",
@@ -3242,7 +3331,8 @@
     "Categories":"",
     "Centering of Indigenous Voices?":"",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"CO",
@@ -3280,7 +3370,8 @@
     ],
     "Centering of Indigenous Voices?":"Yes",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"AR",
@@ -3314,7 +3405,8 @@
     "Categories":"",
     "Centering of Indigenous Voices?":"",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"MN",
@@ -3350,7 +3442,8 @@
     ],
     "Centering of Indigenous Voices?":"No",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"AZ",
@@ -3376,7 +3469,7 @@
     "Gender Inclusive Language":"Yes, the Executive Order does use gender-inclusive language. The text specifically refers to \"Indigenous People\" and \"Indigenous women and girls\" when discussing the populations most at risk. ",
     "Prevention Efforts?":"Yes",
     "Prevention Efforts":"\"Collaborate with state, federal and tribal agencies to address the recommendations of the Missing and Murdered Indigenous Peoples Study Committee, which aim to reduce and end violence against Indigenous People in Arizona;\"\n\"Consult with tribal governments on the scope and the nature of the issues associated with missing and murdered Indigenous People and gather data on the prevalence and contextual characteristics of violence against Indigenous People;\"",
-    "Level of Survivor \/ Relative Input?":"No",
+    "Level of Survivor \/ Relative Input?":"Somewhat",
     "Centering of Indigenous Voices":"It doesn't directly include input from survivors or victim's relatives. The task force is tasked with recommending measures to ensure access to culturally appropriate victim services, which suggests a focus on addressing the specific needs of survivors and their families, although direct input is not explicitly stated.",
     "Sponsors of the Legislation":"Gov. Katie Hobbs [D], AG. Kris Mayes [D], Sen. Theresa Hatathlie [D], Lt. Gov. Monica Antone [Gila River Indian Community], Jasmine Blackwater-Nygren [Navajo Nation]",
     "Indigenous Sponsorship":"Sen. Theresa Hatathlie [D], Lt. Gov. Monica Antone [Gila River Indian Community], Jasmine Blackwater-Nygren [Navajo Nation]",
@@ -3387,7 +3480,8 @@
     ],
     "Centering of Indigenous Voices?":"No",
     "Progression":"Passed",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":"\"The Task Force shall be comprised of the following members who are appointed by and serve without compensation at the pleasure of the Governor...Five members of the public who have a background in victim advocacy, legal services, or health services.\""
   },
   {
     "State":"MN",
@@ -3423,7 +3517,8 @@
     ],
     "Centering of Indigenous Voices?":"Yes",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"MO",
@@ -3457,7 +3552,8 @@
     "Categories":"",
     "Centering of Indigenous Voices?":"",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"AK",
@@ -3483,7 +3579,7 @@
     "Gender Inclusive Language":"No",
     "Prevention Efforts?":"No",
     "Prevention Efforts":"Somewhat-                                                                                                                                                                                                            *\u201cWe hold steadfast to our efforts to keep and ensure strong partnerships with all of our tribal, local, state and federal law enforcement partners as well as look at what preventative efforts, survivor services, and educational programs can be implemented in communities across Alaska so that we can reduce the violence that negatively impacts all Alaskans, which includes a disproportionately high rate of indigenous people subjected to violence.\u201d",
-    "Level of Survivor \/ Relative Input?":"Yes",
+    "Level of Survivor \/ Relative Input?":"No",
     "Centering of Indigenous Voices":"These TCRP's will be tailored to the needs of local indigenous communities.                                                                                                                                                                                                                                 \"Earlier this year three Pilot Projects volunteered to create model guides for how a tribal community will respond to a report of new missing or murdered person case. The Pilot Project sites include the tribal communities of Curyung Native Council (Dillingham), Native Village of Unalakleet and Koyukuk Native Village. When finished the Tribal Community Response Plans (TCRP) will be shared with tribal communities across the state who can then tailor it to the specific needs, resources and culture of their communities.\"",
     "Sponsors of the Legislation":"\"\u201cThe Alaska MMIP working group is a multi-disciplinary team led by the United States Attorney\u2019s Office MMIP Coordinator, Ingrid Cumberlidge, and comprised of law enforcement representatives from Alaska State Troopers and VPSOs, FBI, Anchorage Police Department, U.S. Marshals, Fairbanks Police Department, BIA Cold Case Office, Kotzebue Police Department, Nome Police Department, Central Council of Tlingit and Haida Indian Tribes of Alaska VPSO supervisors, and Tanana Chief\u2019s Conference VPSO supervisors; legal and judicial representatives from the Alaska Department of Law, U.S. Coast Guard, Kluti-Kaah Tribal Court (former Utquagvik Tribal Court); Tanana Chief\u2019s Conference; tribal representatives from Ahtna Region, Orutsararmiut Native Council, Sun\u2019aq Tribe of Kodiak; victim service providers; and advocates from Victims for Justice, and the Alaska Native Women\u2019s Resource Center.\u201d   ",
     "Indigenous Sponsorship":"Ingrid Cumberlidge, the Kotzebue Police Department, Nome Police Department, Central Council of Tlingit and Haida Indian Tribes of Alaska VPSO supervisors, and Tanana Chief\u2019s Conference VPSO supervisors; legal and judicial representatives from the Alaska Department of Law, U.S. Coast Guard, Kluti-Kaah Tribal Court (former Utquagvik Tribal Court); Tanana Chief\u2019s Conference; tribal representatives from Ahtna Region, Orutsararmiut Native Council, Sun\u2019aq Tribe of Kodiak; victim service providers; and advocates from Victims for Justice, and the Alaska Native Women\u2019s Resource Center.",
@@ -3493,7 +3589,8 @@
     ],
     "Centering of Indigenous Voices?":"Yes",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":"The legislation and initiatives referenced in the Justice Department's recognition of Missing or Murdered Indigenous Persons (MMIP) Awareness Day in Alaska primarily focus on partnerships, law enforcement improvements, and community outreach. However, explicit examples of survivor input into these efforts are not prominently detailed in the sources reviewed.\n\nThe announcements highlight steps such as appointing regional MMIP coordinators, implementing Tribal Community Response Plans, and conducting training and education sessions across Alaska."
   },
   {
     "State":"NH",
@@ -3527,7 +3624,8 @@
     "Categories":"",
     "Centering of Indigenous Voices?":"",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"NY",
@@ -3564,7 +3662,8 @@
     ],
     "Centering of Indigenous Voices?":"Yes",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"NM",
@@ -3600,7 +3699,8 @@
     ],
     "Centering of Indigenous Voices?":"No",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":""
   },
   {
     "State":"AK",
@@ -3626,7 +3726,7 @@
     "Gender Inclusive Language":"No",
     "Prevention Efforts?":"TBD or TCRP Specific",
     "Prevention Efforts":"Yes, this as this executive order seeks to implement TCRPs, which are inclusive of prevention efforts",
-    "Level of Survivor \/ Relative Input?":"Yes",
+    "Level of Survivor \/ Relative Input?":"No",
     "Centering of Indigenous Voices":"These TCRP's will be tailored to the needs of local indigenous communities. \"Earlier this year three Pilot Projects volunteered to create model guides for how a tribal community will respond to a report of new missing or murdered person case. The Pilot Project sites include the tribal communities of Curyung Native Council (Dillingham), Native Village of Unalakleet and Koyukuk Native Village. When finished the Tribal Community Response Plans (TCRP) will be shared with tribal communities across the state who can then tailor it to the specific needs, resources and culture of their communities.\"",
     "Sponsors of the Legislation":"\"\u201cThe Alaska MMIP working group is a multi-disciplinary team led by the United States Attorney\u2019s Office MMIP Coordinator, Ingrid Cumberlidge, and comprised of law enforcement representatives from Alaska State Troopers and VPSOs, FBI, Anchorage Police Department, U.S. Marshals, Fairbanks Police Department, BIA Cold Case Office, Kotzebue Police Department, Nome Police Department, Central Council of Tlingit and Haida Indian Tribes of Alaska VPSO supervisors, and Tanana Chiefs Conference VPSO supervisors; legal and judicial representatives from the Alaska Department of Law, U.S. Coast Guard, Kluti-Kaah Tribal Court (former Utquagvik Tribal Court); Tanana Chiefs Conference; tribal representatives from Ahtna Region, Orutsararmiut Native Council, Sun\u2019aq Tribe of Kodiak; victim service providers; and advocates from Victims for Justice, and the Alaska Native Women\u2019s Resource Center.\u201d",
     "Indigenous Sponsorship":"Ingrid Cumberlidge, Missing and Murdering Indigenous Persons Coordinator (MMIP) .\n",
@@ -3634,6 +3734,7 @@
     "Categories":"",
     "Centering of Indigenous Voices?":"Yes",
     "Progression":"",
-    "Session":""
+    "Session":"",
+    "Level of Survivor \/ Relative Input":"The initiatives include the development of Tribal Community Response Plans (TCRPs), which involve multiple stakeholders, including tribal leaders and organizations, to address the crisis.\n\nHowever, there is no explicit mention in the provided information that MMIP survivors or their families were directly involved in the development of these plans or projects. The focus appears to be on system-level collaboration"
   }
 ]
